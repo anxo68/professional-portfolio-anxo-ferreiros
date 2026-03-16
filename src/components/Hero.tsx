@@ -17,7 +17,7 @@ export default function Hero() {
         {/* LinkedIn Cover Image as a subtle card backplate or accent */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-screen max-w-5xl h-64 md:h-80 -mt-24 md:-mt-12 rounded-b-[3rem] opacity-30 pointer-events-none overflow-hidden mask-image-gradient">
           <img 
-            src="/linkedin-cover.jpg?v=1" 
+            src="/linkedin-cover.jpg?v=2" 
             alt="LinkedIn Cover"
             className="w-full h-full object-cover"
           />
@@ -30,7 +30,7 @@ export default function Hero() {
             <div className="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-blue-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-xl mx-auto relative z-10 bg-slate-100">
               <img 
-                src="/linkedin-profile.png?v=1" 
+                src="/linkedin-profile-real.jpg?v=2" 
                 alt="Profile Photo" 
                 className="w-full h-full object-cover"
               />
