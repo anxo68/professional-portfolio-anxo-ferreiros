@@ -12,6 +12,8 @@ export default function ClientLogos() {
     { name: 'Grupo Cobra', domain: 'grupocobra.com' },
     { name: 'SENER', domain: 'group.sener' },
     { name: 'Gransolar', domain: 'gransolar.com' },
+    { name: 'Negratin', domain: 'negratin.com' },
+    { name: 'Prodiel', domain: 'prodiel.com' },
   ];
 
   return (
