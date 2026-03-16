@@ -4,7 +4,7 @@ export default function ClientLogos() {
   const t = useTranslations('Clients');
 
   const clients = [
-    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2', hideName: true, customClass: 'h-14 md:h-20' },
+    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2', hideName: true, customClass: 'h-24 md:h-36' },
     { name: 'BayWa r.e.', domain: 'baywa-re.com' },
     { name: 'ISAGEN', domain: 'isagen.com.co' },
     { name: 'Pan American Energy', domain: 'pan-energy.com' },
