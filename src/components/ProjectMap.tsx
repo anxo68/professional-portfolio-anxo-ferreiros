@@ -25,7 +25,7 @@ const markers = [
     name: "Colombia (Barranquilla)",
     projects: "Bosques Solares de Bolívar",
     capacity: "125 MWp",
-    coordinates: [-74.8, 11.0] as [number, number],
+    coordinates: [-102.3, 21.8] as [number, number],
   },
   {
     markerOffset: 15,
@@ -53,7 +53,7 @@ const markers = [
     name: "México (Aguascalientes)",
     projects: "P.F.V. Los Cuervos",
     capacity: "",
-    coordinates: [-102.3, 21.8] as [number, number],
+    coordinates: [-74.8, 11.0] as [number, number],
   }
 ];
 
