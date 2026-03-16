@@ -4,7 +4,7 @@ export default function ClientLogos() {
   const t = useTranslations('Clients');
 
   const clients = [
-    { name: 'Enel Green Power', domain: 'enelgreenpower.com' },
+    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2' },
     { name: 'BayWa r.e.', domain: 'baywa-re.com' },
     { name: 'ISAGEN', domain: 'isagen.com.co' },
     { name: 'Pan American Energy', domain: 'pan-energy.com' },
@@ -13,7 +13,7 @@ export default function ClientLogos() {
     { name: 'SENER', domain: 'group.sener' },
     { name: 'Gransolar', domain: 'gransolar.com' },
     { name: 'Negratin', domain: 'negratin.com' },
-    { name: 'Prodiel', customImg: '/prodiel-logo.png' },
+    { name: 'Prodiel', customImg: '/prodiel-logo.png?v=2' },
   ];
 
   return (
