@@ -29,9 +29,9 @@ export default function ClientLogos() {
         <div className="absolute top-0 bottom-0 left-0 w-24 md:w-48 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
         <div className="absolute top-0 bottom-0 right-0 w-24 md:w-48 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
 
-        <div className="flex animate-marquee group-hover:pause whitespace-nowrap items-center min-w-full">
+        <div className="flex animate-marquee group-hover:pause whitespace-nowrap items-center w-max">
             {[...clients, ...clients].map((client, idx) => (
-                <div key={idx} className="flex-none flex items-center gap-4 mx-8 md:mx-16 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+                <div key={idx} className="flex-none flex items-center gap-4 px-8 md:px-16 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
                     <img 
                       src={client.customImg 
                         ? client.customImg 
