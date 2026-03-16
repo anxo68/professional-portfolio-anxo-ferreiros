@@ -54,7 +54,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <a 
-                href="https://www.linkedin.com/in/anxo-ferreiros" 
+                href="https://www.linkedin.com/in/anxo-xos%C3%A9-ferreir%C3%B3s-otero-83a0425b/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4 group"
