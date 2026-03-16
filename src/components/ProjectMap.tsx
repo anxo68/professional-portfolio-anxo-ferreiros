@@ -12,21 +12,48 @@ import { useTranslations } from 'next-intl';
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
-// Coordenadas aproximadas
 const markers = [
   {
-    markerOffset: -15,
-    name: "España (Mula, Huelva, Garnacha, Corvera)",
-    coordinates: [-4.0, 40.0] as [number, number],
-    projects: "3+ Megaproyectos",
-    capacity: "850+ MW"
+    markerOffset: -25,
+    name: "España (Cuenca)",
+    projects: "Sabinar Hive",
+    capacity: "",
+    coordinates: [-2.1, 40.0] as [number, number],
   },
   {
-    markerOffset: 25,
-    name: "Colombia (Bosques Solares de Bolívar)",
-    coordinates: [-74.0, 4.0] as [number, number],
-    projects: "1+ Megaproyectos",
-    capacity: "400+ MW"
+    markerOffset: -25,
+    name: "Colombia (Barranquilla)",
+    projects: "Bosques Solares de Bolívar",
+    capacity: "125 MWp",
+    coordinates: [-74.8, 11.0] as [number, number],
+  },
+  {
+    markerOffset: 15,
+    name: "Argentina (Chubut)",
+    projects: "C.C. Comodoro Rivadavia",
+    capacity: "",
+    coordinates: [-67.5, -45.8] as [number, number],
+  },
+  {
+    markerOffset: -25,
+    name: "Argentina (Bs. As.)",
+    projects: "Planta Potabilizadora",
+    capacity: "",
+    coordinates: [-58.3, -34.6] as [number, number],
+  },
+  {
+    markerOffset: -25,
+    name: "México (Monterrey)",
+    projects: "P.E. Dolores",
+    capacity: "",
+    coordinates: [-100.3, 25.6] as [number, number],
+  },
+  {
+    markerOffset: 15,
+    name: "México (Aguascalientes)",
+    projects: "P.F.V. Los Cuervos",
+    capacity: "",
+    coordinates: [-102.3, 21.8] as [number, number],
   }
 ];
 
@@ -87,19 +114,29 @@ const ProjectMap = () => {
               <text
                 textAnchor="middle"
                 y={markerOffset}
-                style={{ fontFamily: "Inter, sans-serif", fill: "#1e293b", fontSize: "10px", fontWeight: "600" }}
+                style={{ fontFamily: "Inter, sans-serif", fill: "#1e293b", fontSize: "9px", fontWeight: "600" }}
                 className="pointer-events-none drop-shadow-sm"
               >
                 {name}
               </text>
               <text
                 textAnchor="middle"
-                y={markerOffset + 12}
-                style={{ fontFamily: "Inter, sans-serif", fill: "#059669", fontSize: "8px", fontWeight: "700" }}
-                className="pointer-events-none"
+                y={markerOffset + 10}
+                style={{ fontFamily: "Inter, sans-serif", fill: "#475569", fontSize: "8px", fontWeight: "500" }}
+                className="pointer-events-none drop-shadow-sm"
               >
-                {capacity}
+                {projects}
               </text>
+              {capacity && (
+                <text
+                  textAnchor="middle"
+                  y={markerOffset + 20}
+                  style={{ fontFamily: "Inter, sans-serif", fill: "#059669", fontSize: "8px", fontWeight: "700" }}
+                  className="pointer-events-none drop-shadow-sm"
+                >
+                  {capacity}
+                </text>
+              )}
             </Marker>
           ))}
         </ZoomableGroup>
