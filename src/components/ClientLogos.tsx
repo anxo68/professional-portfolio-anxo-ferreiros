@@ -4,7 +4,7 @@ export default function ClientLogos() {
   const t = useTranslations('Clients');
 
   const clients = [
-    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2' },
+    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2', hideName: true },
     { name: 'BayWa r.e.', domain: 'baywa-re.com' },
     { name: 'ISAGEN', domain: 'isagen.com.co' },
     { name: 'Pan American Energy', domain: 'pan-energy.com' },
@@ -13,7 +13,7 @@ export default function ClientLogos() {
     { name: 'SENER', domain: 'group.sener' },
     { name: 'Gransolar', domain: 'gransolar.com' },
     { name: 'Negratin', domain: 'negratin.com' },
-    { name: 'Prodiel', customImg: '/prodiel-logo.png?v=2' },
+    { name: 'Prodiel', customImg: '/prodiel-logo.png?v=2', hideName: true },
   ];
 
   return (
@@ -40,9 +40,11 @@ export default function ClientLogos() {
                       alt={client.name} 
                       className="h-8 md:h-12 w-auto object-contain bg-white rounded-md p-1"
                     />
-                    <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800">
-                        {client.name}
-                    </span>
+                    {!client.hideName && (
+                        <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800">
+                            {client.name}
+                        </span>
+                    )}
                 </div>
             ))}
         </div>
