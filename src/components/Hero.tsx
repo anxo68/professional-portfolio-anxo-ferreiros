@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { ArrowRight, Download, ChevronDown } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Hero() {
   const t = useTranslations('Hero');
@@ -12,9 +13,35 @@ export default function Hero() {
       <div className="absolute -bottom-32 left-1/2 min-w-96 min-h-96 w-[500px] h-[500px] -ml-[250px] rounded-full bg-slate-200/50 mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-1 gap-12 text-center max-w-5xl">
-        <div className="flex flex-col items-center justify-center space-y-8">
+
+        {/* LinkedIn Cover Image as a subtle card backplate or accent */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-screen max-w-5xl h-64 md:h-80 -mt-24 md:-mt-12 rounded-b-[3rem] opacity-30 pointer-events-none overflow-hidden mask-image-gradient">
+          <Image 
+            src="/linkedin-cover.jpg" 
+            alt="LinkedIn Cover"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-slate-50"></div>
+        </div>
+
+        <div className="flex flex-col items-center justify-center space-y-8 mt-16 md:mt-24">
           
-          <div className="inline-flex items-center px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-sm font-semibold tracking-wide uppercase border border-emerald-100/50 shadow-sm">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-emerald-600 to-blue-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+            <div className="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white shadow-xl mx-auto relative z-10 bg-slate-100">
+              <Image 
+                src="/linkedin-profile.png" 
+                alt="Profile Photo" 
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+
+          <div className="inline-flex items-center px-4 py-2 rounded-full bg-emerald-50 text-emerald-700 text-sm font-semibold tracking-wide uppercase border border-emerald-100/50 shadow-sm relative z-20">
             {t('pretitle')}
           </div>
           
