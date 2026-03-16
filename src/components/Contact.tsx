@@ -67,10 +67,10 @@ export default function Contact() {
                 </span>
               </a>
               
-              <a 
-                href="/cv.pdf" 
-                target="_blank"
-                className="flex items-center space-x-4 group"
+              <button 
+                onClick={() => document.getElementById('name')?.focus()}
+                type="button"
+                className="flex items-center space-x-4 group text-left w-full"
               >
                 <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm border border-slate-100 group-hover:bg-slate-900 transition-colors">
                   <FileText className="w-5 h-5 text-slate-600 group-hover:text-white transition-colors" />
@@ -78,7 +78,7 @@ export default function Contact() {
                 <span className="text-slate-700 font-medium group-hover:text-slate-900 transition-colors">
                   {t('downloadCv')}
                 </span>
-              </a>
+              </button>
             </div>
           </div>
 

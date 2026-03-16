@@ -105,7 +105,7 @@
     "message": "Message",
     "send": "Send Message",
     "linkedin": "Connect on LinkedIn",
-    "downloadCv": "Download CV",
+    "downloadCv": "Request CV via form",
     "successMessage": "Message sent successfully. I will get in touch shortly.",
     "errorMessage": "There was an error sending the message. Please try again later."
   },
