@@ -35,10 +35,13 @@ export default function Navbar() {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        
         {/* LOGO */}
-        <a href="#" className="text-xl font-bold tracking-tighter text-slate-900 transition-colors hover:text-emerald-600">
-          A<span className="text-emerald-600">.</span>X<span className="text-emerald-600">.</span>F
+        <a href="#" className="flex items-center gap-2 transition-opacity hover:opacity-80">
+          <img 
+            src="/un-climate-change-logo.png" 
+            alt="United Nations Climate Change" 
+            className="h-10 md:h-12 w-auto object-contain"
+          />
         </a>
 
         {/* DESKTOP NAV */}
