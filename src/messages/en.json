@@ -1,0 +1,118 @@
+{
+  "Hero": {
+    "pretitle": "Anxo Xosé Ferreirós Otero",
+    "title": "Senior EPC Project Manager for Energy Transition and Large Infrastructures.",
+    "subtitle": "Transforming engineering vision into operational realities. Over 30 years leading the comprehensive execution of Renewable Energy (Wind, Solar PV) and Infrastructure megaprojects internationally, ensuring deadlines, budgets, and maximum profitability.",
+    "ctaExplore": "Explore Projects",
+    "ctaContact": "Contact Me"
+  },
+  "About": {
+    "title": "About Me",
+    "paragraph1": "As a Senior Project Manager and Site Manager, my career has been built on the ability to orchestrate complexity. For over three decades, I have led multidisciplinary teams of up to 1,000 people and managed budgets exceeding 240 million euros across Europe and Latin America. My approach covers the complete project lifecycle (Full EPC): from design and procurement to construction, commissioning, and handover.",
+    "paragraph2": "Over the past 11 years, I have focused my expertise on the Renewable Energy and Energy Transition sectors, complementing my technical vision with advanced training in Green Hydrogen projects and Artificial Intelligence applied to engineering and business productivity."
+  },
+  "Skills": {
+    "title": "Leadership & Core Competencies",
+    "epc": "EPC Management",
+    "epcDesc": "Comprehensive management of contracts, subcontracting, and strategic procurement.",
+    "pmo": "Project Management Office (PMO)",
+    "pmoDesc": "Primavera P6, Earned Value Management (EVM), Monte Carlo Simulations.",
+    "risk": "Risk & Contract Management",
+    "riskDesc": "Claims control, negotiation, and conflict resolution.",
+    "energy": "Energy Transition",
+    "energyDesc": "Solar PV Plants, Wind Farms, Green Hydrogen.",
+    "operations": "Operations",
+    "operationsDesc": "Massive team leadership and QHSE management in multinational environments."
+  },
+  "Portfolio": {
+    "title": "Highlighted Projects",
+    "client": "Client:",
+    "magnitude": "Magnitude:",
+    "budget": "Budget:",
+    "project1": {
+      "name": "\"Sabinar Hive\" Solar PV Plant",
+      "client": "ERANOVUM (Spain)",
+      "magnitude": "408 MWp",
+      "budget": "240 M€",
+      "description": "Full EPC direction, managing civil and electrical construction (3-circuit Step-up Substation and 5km evacuation line) and assembly under the highest quality standards."
+    },
+    "project2": {
+      "name": "\"Dolores\" Wind Farm",
+      "client": "Enel Green Power (Mexico)",
+      "magnitude": "250 MW (274 MW capacity)",
+      "budget": "225 M USD",
+      "description": "Led the construction of wind generation infrastructure (83 WTGs), including nearly 100 km of access roads, substation, and concrete voussoir tower foundations."
+    },
+    "project3": {
+      "name": "\"Los Cuervos\" Solar PV Plant",
+      "client": "BayWa-r.e. (Mexico)",
+      "magnitude": "270 MWp",
+      "budget": "165 M USD",
+      "description": "Full EPC execution including trackers, step-up substation, switching substation, and mixed evacuation line."
+    },
+    "project4": {
+      "name": "\"Cerro Dragón\" Combined Cycle Power Plant",
+      "client": "PAE – Pan American Energy (Argentina)",
+      "magnitude": "80 MW",
+      "budget": "200 M USD",
+      "description": "Open Cycle to Combined Cycle conversion project (2-1 system: gas turbines - steam turbine). Project Control management (Costs, cash-flow, re-estimations, Primavera P6 planning, certifications, and claims)."
+    },
+    "project5": {
+      "name": "Expansion of \"General Belgrano\" Water Treatment Plant",
+      "client": "AySA – Aguas y Saneamientos Argentinos (Argentina)",
+      "magnitude": "Expansion to 2,900,000 m³",
+      "budget": "150 M USD",
+      "description": "Contract Manager. Led cost control (EVM), complex temporal activity planning, cash-flow calculation, and change order management ensuring schedule performance."
+    }
+  },
+  "Experience": {
+    "title": "Experience (Summary)",
+    "exp1": {
+      "date": "2017 - Present",
+      "role": "Senior Project Manager in Renewable Energy",
+      "description": "Comprehensive direction of international Wind and Solar projects under EPC modality."
+    },
+    "exp2": {
+      "date": "2014 - 2017",
+      "role": "Project Control Manager (CPM)",
+      "description": "Managed large water infrastructure contracts (Desalination/Potabilization) and Combined Cycles, focusing on cost control and planning (EVM, P6)."
+    },
+    "exp3": {
+      "date": "1989 - 2014",
+      "role": "Group Manager / Production Manager",
+      "description": "Over two decades executing and directing heavy civil works, viaducts, urbanization, and agro-industrial megaprojects."
+    }
+  },
+  "Education": {
+    "title": "Education & Certifications",
+    "eng": {
+      "title": "Engineering",
+      "desc": "Bachelor of Science in Civil Engineering (Construction Management). Bachelor in Maintenance and Production Management (Renewables)."
+    },
+    "management": {
+      "title": "Management",
+      "desc": "Master's in Project Direction and Management (PMI, IPMA), MBA (PADE)."
+    },
+    "energy": {
+      "title": "Energy & Technology",
+      "desc": "Master's in Green Hydrogen Projects (2024-2025). Master's in AI in Programming (2025). Master's in Renewable Electrical Energy Generation."
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "linkedin": "Connect on LinkedIn",
+    "downloadCv": "Download CV",
+    "successMessage": "Message sent successfully. I will get in touch shortly.",
+    "errorMessage": "There was an error sending the message. Please try again later."
+  },
+  "Nav": {
+    "about": "About Me",
+    "portfolio": "Projects",
+    "experience": "Experience",
+    "contact": "Contact"
+  }
+}

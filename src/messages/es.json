@@ -1,0 +1,118 @@
+{
+  "Hero": {
+    "pretitle": "Anxo Xosé Ferreirós Otero",
+    "title": "Experto Senior en Dirección de Proyectos EPC para Transición Energética y Grandes Infraestructuras.",
+    "subtitle": "Transformando la visión de ingeniería en realidades operativas. Más de 30 años liderando la ejecución integral de megaproyectos de Energías Renovables (Eólica, Fotovoltaica) e Infraestructuras a nivel internacional, garantizando plazos, presupuestos y máxima rentabilidad.",
+    "ctaExplore": "Explorar Proyectos",
+    "ctaContact": "Contactar"
+  },
+  "About": {
+    "title": "Sobre Mí",
+    "paragraph1": "Como Project Manager y Site Manager Senior, mi carrera se ha construido sobre la capacidad de orquestar la complejidad. Durante más de tres décadas, he liderado equipos multidisciplinares de hasta 1.000 personas y gestionado presupuestos superiores a los 240 millones de euros en Europa y Latinoamérica. Mi enfoque abarca el ciclo vital completo del proyecto (Full EPC): desde el diseño y las compras, hasta la construcción, la puesta en marcha y la entrega.",
+    "paragraph2": "En los últimos 11 años, he focalizado mi expertise en el sector de las Energías Renovables y la Transición Energética, complementando mi visión técnica con formación avanzada en proyectos de Hidrógeno Verde e Inteligencia Artificial aplicada a la ingeniería y la productividad empresarial."
+  },
+  "Skills": {
+    "title": "Liderazgo y Competencias Clave",
+    "epc": "Gestión EPC",
+    "epcDesc": "Dirección integral de contratos, subcontrataciones y compras estratégicas.",
+    "pmo": "Control de Proyecto (PMO)",
+    "pmoDesc": "Primavera P6, Gestión del Valor Ganado (EVM), Simulaciones de Montecarlo.",
+    "risk": "Gestión de Riesgos y Contratos",
+    "riskDesc": "Control de claims (reclamaciones), negociación y resolución de conflictos.",
+    "energy": "Transición Energética",
+    "energyDesc": "Plantas Solares Fotovoltaicas, Parques Eólicos, Hidrógeno Verde.",
+    "operations": "Operaciones",
+    "operationsDesc": "Liderazgo de equipos masivos y gestión QHSE en entornos multinacionales."
+  },
+  "Portfolio": {
+    "title": "Proyectos Destacados",
+    "client": "Cliente:",
+    "magnitude": "Magnitud:",
+    "budget": "Presupuesto:",
+    "project1": {
+      "name": "Parque Solar Fotovoltaico \"Sabinar Hive\"",
+      "client": "ERANOVUM (España)",
+      "magnitude": "408 MWp",
+      "budget": "240 M€",
+      "description": "Dirección \"Full EPC\" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad."
+    },
+    "project2": {
+      "name": "Parque Eólico \"Dolores\"",
+      "client": "Enel Green Power (México)",
+      "magnitude": "250 MW (274 MW capacidad)",
+      "budget": "225 M USD",
+      "description": "Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón."
+    },
+    "project3": {
+      "name": "Parque Solar Fotovoltaico \"Los Cuervos\"",
+      "client": "BayWa-r.e. (México)",
+      "magnitude": "270 MWp",
+      "budget": "165 M USD",
+      "description": "Ejecución \"Full EPC\" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta."
+    },
+    "project4": {
+      "name": "Central de Ciclo Combinado \"Cerro Dragón\"",
+      "client": "PAE – Pan American Energy (Argentina)",
+      "magnitude": "80 MW",
+      "budget": "200 M USD",
+      "description": "Proyecto de Cierre de Ciclo abierto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Gestión del Control de Proyectos (Costes, cash-flow, reestimaciones, planificación Primavera P6, certificaciones y claims)."
+    },
+    "project5": {
+      "name": "Ampliación Planta Potabilizadora \"General Belgrano\"",
+      "client": "AySA – Aguas y Saneamientos Argentinos (Argentina)",
+      "magnitude": "Ampliación a 2.900.000 m³",
+      "budget": "150 M USD",
+      "description": "Gerente de Contrato. Liderazgo en el control de costes (EVM), planificación temporal de actividades complejas, cálculo de cash-flow y gestión de órdenes de cambio garantizando el desempeño del cronograma."
+    }
+  },
+  "Experience": {
+    "title": "Trayectoria (Resumen)",
+    "exp1": {
+      "date": "2017 - Actualidad",
+      "role": "Project Manager Senior en Energías Renovables",
+      "description": "Dirección integral de proyectos Eólicos y Solares internacionales bajo modalidad EPC."
+    },
+    "exp2": {
+      "date": "2014 - 2017",
+      "role": "Gerente de Control de Proyectos (CPM)",
+      "description": "Gestión de grandes contratos de infraestructuras de agua (Desalinización/Potabilización) y Ciclos Combinados, enfocado en el control de costes y planificación (EVM, P6)."
+    },
+    "exp3": {
+      "date": "1989 - 2014",
+      "role": "Jefe de Grupo / Jefe de Producción",
+      "description": "Más de dos décadas ejecutando y dirigiendo obra civil pesada, viaductos, urbanización y megaproyectos agroindustriales."
+    }
+  },
+  "Education": {
+    "title": "Formación y Certificaciones",
+    "eng": {
+      "title": "Ingeniería",
+      "desc": "Bachelor of Science in Civil Engineering (Construction Management). Bachelor en Mantenimiento y Gestión de la Producción (Renovables)."
+    },
+    "management": {
+      "title": "Management",
+      "desc": "Máster en Dirección y Gestión de Proyectos (PMI, IPMA), MBA (PADE)."
+    },
+    "energy": {
+      "title": "Energía y Tecnología",
+      "desc": "Máster en Proyectos de Hidrógeno Verde (2024-2025). Máster en IA en la Programación (2025). Máster en Generación de Energía Eléctrica Renovable."
+    }
+  },
+  "Contact": {
+    "title": "Contacto",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "linkedin": "Conectar en LinkedIn",
+    "downloadCv": "Descargar CV",
+    "successMessage": "Mensaje enviado exitosamente. En breve me pondré en contacto.",
+    "errorMessage": "Hubo un error al enviar el mensaje. Intente de nuevo más tarde."
+  },
+  "Nav": {
+    "about": "Sobre Mí",
+    "portfolio": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  }
+}

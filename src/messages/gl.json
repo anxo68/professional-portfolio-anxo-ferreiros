@@ -1,0 +1,118 @@
+{
+  "Hero": {
+    "pretitle": "Anxo Xosé Ferreirós Otero",
+    "title": "Experto Senior na Dirección de Proxectos EPC para Transición Enerxética e Grandes Infraestruturas.",
+    "subtitle": "Transformando a visión da enxeñería en realidades operativas. Máis de 30 anos liderando a execución integral de megaproxectos de Enerxías Renovables (Eólica, Fotovoltaica) e Infraestruturas a nivel internacional, garantindo prazos, orzamentos e máxima rendibilidade.",
+    "ctaExplore": "Explorar Proxectos",
+    "ctaContact": "Contactar"
+  },
+  "About": {
+    "title": "Sobre Min",
+    "paragraph1": "Como Project Manager e Site Manager Senior, a miña carreira construiuse sobre a capacidade de orquestrar a complexidade. Durante máis de tres décadas, liderei equipos multidisciplinares de ata 1.000 persoas e xestionei orzamentos superiores aos 240 millóns de euros en Europa e Latinoamérica. O meu enfoque abrangue o ciclo vital completo do proxecto (Full EPC): dende o deseño e as compras, ata a construción, a posta en marcha e a entrega.",
+    "paragraph2": "Nos últimos 11 anos, focalicei o meu expertise no sector das Enerxías Renovables e a Transición Enerxética, complementando a miña visión técnica con formación avanzada en proxectos de Hidróxeno Verde e Intelixencia Artificial aplicada á enxeñería e á produtividade empresarial."
+  },
+  "Skills": {
+    "title": "Liderado e Competencias Clave",
+    "epc": "Xestión EPC",
+    "epcDesc": "Dirección integral de contratos, subcontratacións e compras estratéxicas.",
+    "pmo": "Control de Proxecto (PMO)",
+    "pmoDesc": "Primavera P6, Xestión do Valor Gañado (EVM), Simulacións de Montecarlo.",
+    "risk": "Xestión de Riscos e Contratos",
+    "riskDesc": "Control de claims (reclamacións), negociación e resolución de conflitos.",
+    "energy": "Transición Enerxética",
+    "energyDesc": "Plantas Solares Fotovoltaicas, Parques Eólicos, Hidróxeno Verde.",
+    "operations": "Operacións",
+    "operationsDesc": "Liderado de equipos masivos e xestión QHSE en contornos multinacionais."
+  },
+  "Portfolio": {
+    "title": "Proxectos Destacados",
+    "client": "Cliente:",
+    "magnitude": "Magnitude:",
+    "budget": "Orzamento:",
+    "project1": {
+      "name": "Parque Solar Fotovoltaico \"Sabinar Hive\"",
+      "client": "ERANOVUM (España)",
+      "magnitude": "408 MWp",
+      "budget": "240 M€",
+      "description": "Dirección \"Full EPC\" xestionando a construción civil, eléctrica (SE Elevadora de 3 circuítos e liña de evacuación de 5km) e o montaxe baixo altísimos estándares de calidade."
+    },
+    "project2": {
+      "name": "Parque Eólico \"Dolores\"",
+      "client": "Enel Green Power (México)",
+      "magnitude": "250 MW (274 MW capacidade)",
+      "budget": "225 M USD",
+      "description": "Liderado na construción de infraestrutura de xeración eólica (83 WTGs), incluíndo a escavación de case 100 km de viais de acceso, subestación e cimentacións de torres de doelas de formigón."
+    },
+    "project3": {
+      "name": "Parque Solar Fotovoltaico \"Los Cuervos\"",
+      "client": "BayWa-r.e. (México)",
+      "magnitude": "270 MWp",
+      "budget": "165 M USD",
+      "description": "Execución \"Full EPC\" incluíndo seguidor, subestación elevadora, subestación de manobras e liña de evacuación mixta."
+    },
+    "project4": {
+      "name": "Central de Ciclo Combinado \"Cerro Dragón\"",
+      "client": "PAE – Pan American Energy (Arxentina)",
+      "magnitude": "80 MW",
+      "budget": "200 M USD",
+      "description": "Proxecto de Peche de Ciclo aberto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Xestión do Control de Proxectos (Custos, cash-flow, reestimacións, planificación Primavera P6, certificacións e claims)."
+    },
+    "project5": {
+      "name": "Ampliación Planta Potabilizadora \"General Belgrano\"",
+      "client": "AySA – Aguas y Saneamientos Argentinos (Arxentina)",
+      "magnitude": "Ampliación a 2.900.000 m³",
+      "budget": "150 M USD",
+      "description": "Xerente de Contrato. Liderado no control de custos (EVM), planificación temporal de actividades complexas, cálculo de cash-flow e xestión de ordes de cambio garantindo o desempeño do cronograma."
+    }
+  },
+  "Experience": {
+    "title": "Traxectoria (Resumo)",
+    "exp1": {
+      "date": "2017 - Actualidade",
+      "role": "Project Manager Senior en Enerxías Renovables",
+      "description": "Dirección integral de proxectos Eólicos e Solares internacionais baixo modalidade EPC."
+    },
+    "exp2": {
+      "date": "2014 - 2017",
+      "role": "Xerente de Control de Proxectos (CPM)",
+      "description": "Xestión de grandes contratos de infraestruturas de auga (Desalación/Potabilización) e Ciclos Combinados, enfocado no control de custos e planificación (EVM, P6)."
+    },
+    "exp3": {
+      "date": "1989 - 2014",
+      "role": "Xefe de Grupo / Xefe de Produción",
+      "description": "Máis de dúas décadas executando e dirixindo obra civil pesada, viadutos, urbanización e megaproxectos agroindustriais."
+    }
+  },
+  "Education": {
+    "title": "Formación e Certificacións",
+    "eng": {
+      "title": "Enxeñería",
+      "desc": "Bachelor of Science in Civil Engineering (Construction Management). Bachelor en Mantemento e Xestión da Produción (Renovables)."
+    },
+    "management": {
+      "title": "Management",
+      "desc": "Máster na Dirección e Xestión de Proxectos (PMI, IPMA), MBA (PADE)."
+    },
+    "energy": {
+      "title": "Enerxía e Tecnoloxía",
+      "desc": "Máster en Proxectos de Hidróxeno Verde (2024-2025). Máster en IA na Programación (2025). Máster en Xeración de Enerxía Eléctrica Renovable."
+    }
+  },
+  "Contact": {
+    "title": "Contacto",
+    "name": "Nome",
+    "email": "Correo Electrónico",
+    "message": "Mensaxe",
+    "send": "Enviar Mensaxe",
+    "linkedin": "Conectar en LinkedIn",
+    "downloadCv": "Descargar CV",
+    "successMessage": "Mensaxe enviada exitosamente. En breve poñereime en contacto.",
+    "errorMessage": "Houbo un erro ao enviar a mensaxe. Tente de novo máis tarde."
+  },
+  "Nav": {
+    "about": "Sobre Min",
+    "portfolio": "Proxectos",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  }
+}
