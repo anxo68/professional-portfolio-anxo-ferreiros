@@ -153,5 +153,28 @@
     "portfolio": "Projects",
     "experience": "Experience",
     "contact": "Contact"
+  },
+  "Impact": {
+    "exp": "+30",
+    "expLabel": "Years of Experience",
+    "power": "+1.2 GW",
+    "powerLabel": "Renewable Power",
+    "budget": "+",
+    "budgetLabel": "Executed Budget",
+    "team": "+1.000",
+    "teamLabel": "People Led"
+  },
+  "Clients": {
+    "title": "Top-tier companies trusting my management"
+  },
+  "Consulting": {
+    "title": "Strategic Consulting Services",
+    "subtitle": "High-level advisory to ensure success in the investment, bidding, and construction phases of megaprojects.",
+    "s1Title": "EPC Bidding Advisory",
+    "s1Desc": "Due Diligence, constructability analysis, technical feasibility, and CAPEX estimation prior to Final Investment Decision (FID).",
+    "s2Title": "Claim Management",
+    "s2Desc": "Technical-contractual expertise, negotiation, and analytical resolution of disputes between pure stakeholders.",
+    "s3Title": "Schedule Audits (EVM/P6)",
+    "s3Desc": "Independent assessment of real physical progress, early detection of schedule deviations, and Cash-flow control."
   }
 }

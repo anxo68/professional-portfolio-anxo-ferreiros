@@ -153,5 +153,28 @@
     "portfolio": "Proyectos",
     "experience": "Experiencia",
     "contact": "Contacto"
+  },
+  "Impact": {
+    "exp": "+30",
+    "expLabel": "Años de Experiencia",
+    "power": "+1.2 GW",
+    "powerLabel": "Potencia Renovable",
+    "budget": "+.000M",
+    "budgetLabel": "Presupuesto Ejecutado",
+    "team": "+1.000",
+    "teamLabel": "Personas Lideradas"
+  },
+  "Clients": {
+    "title": "Empresas de primer nivel que confían en mi gestión"
+  },
+  "Consulting": {
+    "title": "Áreas de Consultoría Estratégica",
+    "subtitle": "Asesoramiento de alto nivel para asegurar el éxito en la fase de inversión, licitación y construcción de megaproyectos.",
+    "s1Title": "Asesoría en Licitaciones EPC",
+    "s1Desc": "Due Diligence, análisis de constructibilidad, viabilidad técnica y estimación de CAPEX antes de la decisión de inversión (FID).",
+    "s2Title": "Gestión de Reclamaciones (Claims)",
+    "s2Desc": "Peritaje técnico-contractual, negociación y resolución analítica de disputas entre promotor y contratista principal.",
+    "s3Title": "Auditorías de Cronograma (EVM/P6)",
+    "s3Desc": "Evaluación independiente del avance físico real, detección temprana de desviaciones temporales y control de Cash-flow."
   }
 }

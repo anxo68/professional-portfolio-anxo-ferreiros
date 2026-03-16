@@ -153,5 +153,28 @@
     "portfolio": "Proxectos",
     "experience": "Experiencia",
     "contact": "Contacto"
+  },
+  "Impact": {
+    "exp": "+30",
+    "expLabel": "Anos de Experiencia",
+    "power": "+1.2 GW",
+    "powerLabel": "Potencia Renovable",
+    "budget": "+.000M",
+    "budgetLabel": "Orzamento Executado",
+    "team": "+1.000",
+    "teamLabel": "Persoas Lideradas"
+  },
+  "Clients": {
+    "title": "Empresas de primeiro nivel que confían na miña xestión"
+  },
+  "Consulting": {
+    "title": "Áreas de Consultoría Estratéxica",
+    "subtitle": "Asesoramento de alto nivel para garantir o éxito na fase de investimento, licitación e construción de megaproxectos.",
+    "s1Title": "Asesoría en Licitacións EPC",
+    "s1Desc": "Due Diligence, análise de construtibilidade, viabilidade técnica e estimación de CAPEX antes da decisión de investimento (FID).",
+    "s2Title": "Xestión de Reclamacións (Claims)",
+    "s2Desc": "Peritaxe técnico-contractual, negociación e resolución analítica de disputas entre promotor e contratista principal.",
+    "s3Title": "Auditorías de Cronograma (EVM/P6)",
+    "s3Desc": "Avaliación independente do avance físico real, detección temperá de desviacións temporais e control de Cash-flow."
   }
 }
