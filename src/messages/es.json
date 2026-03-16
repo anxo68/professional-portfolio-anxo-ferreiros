@@ -36,9 +36,9 @@
       "budget": "240 M€",
       "description": "Dirección \"Full EPC\" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad.",
       "images": [
-        "Sabinar 01.webp",
-        "Sabinar Aerea.webp",
-        "Planta Sabinar.webp"
+        "Sabinar 01.jpg",
+        "Sabinar Aerea.jpg",
+        "Planta Sabinar.jpeg"
       ]
     },
     "project2": {
@@ -48,10 +48,10 @@
       "budget": "225 M USD",
       "description": "Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón.",
       "images": [
-        "Viales Dolores.webp",
-        "Grua Aerogenerador Dolores.webp",
-        "Cimentacion dolores 01.webp",
-        "Cimentación Dolores.webp"
+        "Viales Dolores.JPG",
+        "Grua Aerogenerador Dolores.JPG",
+        "Cimentacion dolores 01.JPG",
+        "Cimentación Dolores.JPG"
       ]
     },
     "project3": {
@@ -61,10 +61,10 @@
       "budget": "165 M USD",
       "description": "Ejecución \"Full EPC\" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta.",
       "images": [
-        "Planta Cuervos.webp",
-        "SET Cuervos 01.webp",
-        "SET Planta Cuervos.webp",
-        "Conexionados Cuervos.webp"
+        "Planta Cuervos.JPG",
+        "SET Cuervos 01.jpeg",
+        "SET Planta Cuervos.JPG",
+        "Conexionados Cuervos.JPG"
       ]
     },
     "project4": {
@@ -90,15 +90,15 @@
       "budget": "100 M USD",
       "description": "Liderazgo en la fase de viabilidad técnica (Línea Base), constructibilidad (análisis de riesgos y mitigaciones), presupuesto y cronograma EPC para toma de decisión de inversión y estructuración de pliegos de licitación.",
       "images": [
-        "Bosques 04.webp",
-        "Bosques 03.webp",
-        "Bosques 02.webp",
-        "Bosques 01.webp",
-        "SET Bosques 03.webp",
-        "SET Bosques 02.webp",
-        "SET Bosques 01.webp",
-        "SET Bosques.webp",
-        "Torre Bosques.webp"
+        "Bosques 04.jpg",
+        "Bosques 03.jpg",
+        "Bosques 02.jpg",
+        "Bosques 01.jpg",
+        "SET Bosques 03.jpeg",
+        "SET Bosques 02.JPG",
+        "SET Bosques 01.JPG",
+        "SET Bosques.JPG",
+        "Torre Bosques.jpeg"
       ]
     }
   },
