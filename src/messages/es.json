@@ -102,7 +102,9 @@
         "SET Bosques.JPG",
         "Torre Bosques.jpeg"
       ]
-    }
+    },
+    "mapTitle": "Huella Global",
+    "mapSubtitle": "Presencia internacional y alcance de megaproyectos"
   },
   "Experience": {
     "title": "Trayectoria (Resumen)",

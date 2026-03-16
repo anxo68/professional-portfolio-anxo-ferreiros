@@ -102,7 +102,9 @@
         "SET Bosques.JPG",
         "Torre Bosques.jpeg"
       ]
-    }
+    },
+    "mapTitle": "Pegada Global",
+    "mapSubtitle": "Presenza internacional e alcance de megaproxectos"
   },
   "Experience": {
     "title": "Traxectoria (Resumo)",

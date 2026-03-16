@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { ArrowUpRight } from 'lucide-react';
+import ProjectMap from './ProjectMap';
 
 export default function Portfolio() {
   const t = useTranslations('Portfolio');
@@ -24,6 +25,8 @@ export default function Portfolio() {
             </h2>
           </div>
         </div>
+
+        <ProjectMap />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((proj) => {

@@ -102,7 +102,9 @@
         "SET Bosques.JPG",
         "Torre Bosques.jpeg"
       ]
-    }
+    },
+    "mapTitle": "Global Footprint",
+    "mapSubtitle": "International presence and megaproject reach"
   },
   "Experience": {
     "title": "Experience (Summary)",
