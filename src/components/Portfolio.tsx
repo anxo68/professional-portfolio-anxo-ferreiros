@@ -7,6 +7,7 @@ export default function Portfolio() {
   const projects = [
     { id: '1', key: 'project1' },
     { id: '2', key: 'project2' },
+    { id: '6', key: 'project6' }, // Added Bosques Solares here specifically as third to keep it prominent
     { id: '3', key: 'project3' },
     { id: '4', key: 'project4' },
     { id: '5', key: 'project5' }
@@ -31,6 +32,17 @@ export default function Portfolio() {
             const magnitude = t(`${proj.key}.magnitude`);
             const budget = t(`${proj.key}.budget`);
             const description = t(`${proj.key}.description`);
+            
+            // Explicitly handling images array if it exists in the translation JSON
+            // We need a fallback since not all might have it, and TS might complain if we aren't careful extracting arrays from next-intl
+            let images: string[] = [];
+            try {
+                // We use raw to get the raw array instead of a translated string
+                images = t.raw(`${proj.key}.images`) || [];
+            } catch (e) {
+                // If it fails (key doesn't exist), we just use empty array
+                images = [];
+            }
 
             return (
               <div 
@@ -40,12 +52,28 @@ export default function Portfolio() {
                 {/* Decorative subtle background */}
                 <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-bl-full -mr-16 -mt-16 transition-transform group-hover:scale-150 duration-500 opacity-50"></div>
                 
-                <div className="relative z-10">
+                <div className="relative z-10 flex flex-col h-full">
                   <h3 className="text-xl md:text-2xl font-bold text-slate-900 mb-2 pr-8">{name}</h3>
                   <p className="text-emerald-700 font-medium mb-6 flex items-center gap-2">
                     {t('client')} <span className="text-slate-700">{client}</span>
                   </p>
                   
+                  {/* Image Gallery Row if images exist */}
+                  {images && images.length > 0 && (
+                    <div className="flex gap-2 overflow-x-auto pb-4 mb-4 scrollbar-thin scrollbar-thumb-slate-200 scrollbar-track-transparent snap-x">
+                        {images.map((img, idx) => (
+                            <div key={idx} className="flex-none w-48 h-32 rounded-lg overflow-hidden snap-start relative border border-slate-200 bg-slate-200">
+                                <img 
+                                    src={`/projects/${img}`} 
+                                    alt={`${name} foto ${idx + 1}`}
+                                    className="w-full h-full object-cover hover:scale-110 transition duration-500"
+                                    loading="lazy"
+                                />
+                            </div>
+                        ))}
+                    </div>
+                  )}
+
                   <div className="flex flex-wrap gap-3 mb-6">
                     <span className="px-3 py-1 bg-white border border-slate-200 rounded-full text-sm font-semibold text-slate-700">
                       {magnitude}

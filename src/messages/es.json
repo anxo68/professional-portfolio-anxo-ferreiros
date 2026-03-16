@@ -34,21 +34,38 @@
       "client": "ERANOVUM (España)",
       "magnitude": "408 MWp",
       "budget": "240 M€",
-      "description": "Dirección \"Full EPC\" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad."
+      "description": "Dirección \"Full EPC\" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad.",
+      "images": [
+        "Sabinar 01.webp",
+        "Sabinar Aerea.webp",
+        "Planta Sabinar.webp"
+      ]
     },
     "project2": {
       "name": "Parque Eólico \"Dolores\"",
       "client": "Enel Green Power (México)",
       "magnitude": "250 MW (274 MW capacidad)",
       "budget": "225 M USD",
-      "description": "Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón."
+      "description": "Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón.",
+      "images": [
+        "Viales Dolores.webp",
+        "Grua Aerogenerador Dolores.webp",
+        "Cimentacion dolores 01.webp",
+        "Cimentación Dolores.webp"
+      ]
     },
     "project3": {
       "name": "Parque Solar Fotovoltaico \"Los Cuervos\"",
       "client": "BayWa-r.e. (México)",
       "magnitude": "270 MWp",
       "budget": "165 M USD",
-      "description": "Ejecución \"Full EPC\" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta."
+      "description": "Ejecución \"Full EPC\" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta.",
+      "images": [
+        "Planta Cuervos.webp",
+        "SET Cuervos 01.webp",
+        "SET Planta Cuervos.webp",
+        "Conexionados Cuervos.webp"
+      ]
     },
     "project4": {
       "name": "Central de Ciclo Combinado \"Cerro Dragón\"",
@@ -63,6 +80,24 @@
       "magnitude": "Ampliación a 2.900.000 m³",
       "budget": "150 M USD",
       "description": "Gerente de Contrato. Liderazgo en el control de costes (EVM), planificación temporal de actividades complejas, cálculo de cash-flow y gestión de órdenes de cambio garantizando el desempeño del cronograma."
+    },
+    "project6": {
+      "name": "Parque Fotovoltaico Bosques Solares de Bolívar",
+      "client": "Isagen (Colombia)",
+      "magnitude": "100 MW (109.2 MWp)",
+      "budget": "100 M USD",
+      "description": "Liderazgo en la fase de viabilidad técnica (Línea Base), constructibilidad (análisis de riesgos y mitigaciones), presupuesto y cronograma EPC para toma de decisión de inversión y estructuración de pliegos de licitación.",
+      "images": [
+        "Bosques 04.webp",
+        "Bosques 03.webp",
+        "Bosques 02.webp",
+        "Bosques 01.webp",
+        "SET Bosques 03.webp",
+        "SET Bosques 02.webp",
+        "SET Bosques 01.webp",
+        "SET Bosques.webp",
+        "Torre Bosques.webp"
+      ]
     }
   },
   "Experience": {

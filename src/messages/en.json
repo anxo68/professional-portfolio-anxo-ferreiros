@@ -34,21 +34,38 @@
       "client": "ERANOVUM (Spain)",
       "magnitude": "408 MWp",
       "budget": "240 M€",
-      "description": "Full EPC direction, managing civil and electrical construction (3-circuit Step-up Substation and 5km evacuation line) and assembly under the highest quality standards."
+      "description": "Full EPC direction, managing civil and electrical construction (3-circuit Step-up Substation and 5km evacuation line) and assembly under the highest quality standards.",
+      "images": [
+        "Sabinar 01.webp",
+        "Sabinar Aerea.webp",
+        "Planta Sabinar.webp"
+      ]
     },
     "project2": {
       "name": "\"Dolores\" Wind Farm",
       "client": "Enel Green Power (Mexico)",
       "magnitude": "250 MW (274 MW capacity)",
       "budget": "225 M USD",
-      "description": "Led the construction of wind generation infrastructure (83 WTGs), including nearly 100 km of access roads, substation, and concrete voussoir tower foundations."
+      "description": "Led the construction of wind generation infrastructure (83 WTGs), including nearly 100 km of access roads, substation, and concrete voussoir tower foundations.",
+      "images": [
+        "Viales Dolores.webp",
+        "Grua Aerogenerador Dolores.webp",
+        "Cimentacion dolores 01.webp",
+        "Cimentación Dolores.webp"
+      ]
     },
     "project3": {
       "name": "\"Los Cuervos\" Solar PV Plant",
       "client": "BayWa-r.e. (Mexico)",
       "magnitude": "270 MWp",
       "budget": "165 M USD",
-      "description": "Full EPC execution including trackers, step-up substation, switching substation, and mixed evacuation line."
+      "description": "Full EPC execution including trackers, step-up substation, switching substation, and mixed evacuation line.",
+      "images": [
+        "Planta Cuervos.webp",
+        "SET Cuervos 01.webp",
+        "SET Planta Cuervos.webp",
+        "Conexionados Cuervos.webp"
+      ]
     },
     "project4": {
       "name": "\"Cerro Dragón\" Combined Cycle Power Plant",
@@ -63,6 +80,24 @@
       "magnitude": "Expansion to 2,900,000 m³",
       "budget": "150 M USD",
       "description": "Contract Manager. Led cost control (EVM), complex temporal activity planning, cash-flow calculation, and change order management ensuring schedule performance."
+    },
+    "project6": {
+      "name": "Parque Fotovoltaico Bosques Solares de Bolívar",
+      "client": "Isagen (Colombia)",
+      "magnitude": "100 MW (109.2 MWp)",
+      "budget": "100 M USD",
+      "description": "Leadership in the technical feasibility phase (Baseline), constructability (risk analysis and mitigations), EPC budget and schedule for investment decision making and structuring of bidding documents.",
+      "images": [
+        "Bosques 04.webp",
+        "Bosques 03.webp",
+        "Bosques 02.webp",
+        "Bosques 01.webp",
+        "SET Bosques 03.webp",
+        "SET Bosques 02.webp",
+        "SET Bosques 01.webp",
+        "SET Bosques.webp",
+        "Torre Bosques.webp"
+      ]
     }
   },
   "Experience": {
