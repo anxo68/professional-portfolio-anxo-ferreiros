@@ -4,7 +4,7 @@ export default function ClientLogos() {
   const t = useTranslations('Clients');
 
   const clients = [
-    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2', hideName: true },
+    { name: 'Enel Green Power', customImg: '/enelgreen-logo.png?v=2', hideName: true, customClass: 'h-14 md:h-20' },
     { name: 'BayWa r.e.', domain: 'baywa-re.com' },
     { name: 'ISAGEN', domain: 'isagen.com.co' },
     { name: 'Pan American Energy', domain: 'pan-energy.com' },
@@ -38,7 +38,7 @@ export default function ClientLogos() {
                         : `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.${client.domain}&size=128`
                       }
                       alt={client.name} 
-                      className="h-8 md:h-12 w-auto object-contain bg-white rounded-md p-1"
+                      className={`${client.customClass || 'h-8 md:h-12'} w-auto object-contain bg-white rounded-md p-1`}
                     />
                     {!client.hideName && (
                         <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800">
