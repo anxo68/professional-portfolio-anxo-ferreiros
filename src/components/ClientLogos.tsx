@@ -13,7 +13,7 @@ export default function ClientLogos() {
     { name: 'SENER', domain: 'group.sener' },
     { name: 'Gransolar', domain: 'gransolar.com' },
     { name: 'Negratin', domain: 'negratin.com' },
-    { name: 'Prodiel', customImg: 'https://prodiel.com/wp-content/uploads/2021/04/Logo-Prodiel-cabecera-Retina.png' },
+    { name: 'Prodiel', customImg: '/prodiel-logo.png' },
   ];
 
   return (
