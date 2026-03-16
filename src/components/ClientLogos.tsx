@@ -3,16 +3,15 @@ import { useTranslations } from 'next-intl';
 export default function ClientLogos() {
   const t = useTranslations('Clients');
 
-  // We are simulating logos with branded typography/text styling to keep it clean and fast
   const clients = [
-    { name: 'Enel Green Power', color: 'text-green-700', font: 'font-bold tracking-tight' },
-    { name: 'BayWa r.e.', color: 'text-emerald-800', font: 'font-black tracking-tighter italic' },
-    { name: 'ISAGEN', color: 'text-blue-700', font: 'font-extrabold tracking-widest uppercase' },
-    { name: 'PAE', color: 'text-slate-800', font: 'font-black tracking-widest' },
-    { name: 'OHL', color: 'text-sky-800', font: 'font-black tracking-tighter' },
-    { name: 'COBRA', color: 'text-red-700', font: 'font-bold tracking-widest uppercase' },
-    { name: 'SENER', color: 'text-blue-900', font: 'font-bold tracking-widest uppercase' },
-    { name: 'GRS', color: 'text-emerald-600', font: 'font-black tracking-widest uppercase' },
+    { name: 'Enel Green Power', domain: 'enelgreenpower.com' },
+    { name: 'BayWa r.e.', domain: 'baywa-re.com' },
+    { name: 'ISAGEN', domain: 'isagen.com.co' },
+    { name: 'Pan American Energy', domain: 'pan-energy.com' },
+    { name: 'OHLA', domain: 'ohla-group.com' },
+    { name: 'Grupo Cobra', domain: 'grupocobra.com' },
+    { name: 'SENER', domain: 'group.sener' },
+    { name: 'Gransolar', domain: 'gransolar.com' },
   ];
 
   return (
@@ -25,15 +24,18 @@ export default function ClientLogos() {
       
       {/* Endless Horizontal Scroll Effect */}
       <div className="relative w-full flex overflow-x-hidden group">
-        {/* Gradient Masks for smooth fade out at edges */}
         <div className="absolute top-0 bottom-0 left-0 w-24 md:w-48 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
         <div className="absolute top-0 bottom-0 right-0 w-24 md:w-48 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
 
         <div className="flex animate-marquee group-hover:pause whitespace-nowrap items-center min-w-full">
-            {/* Map twice to create the infinite scroll illusion smoothly without gaps */}
             {[...clients, ...clients, ...clients].map((client, idx) => (
-                <div key={idx} className="flex-none mx-8 md:mx-16 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
-                    <span className={`text-2xl md:text-3xl ${client.font} ${client.color}`}>
+                <div key={idx} className="flex-none flex items-center gap-4 mx-8 md:mx-16 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
+                    <img 
+                      src={`https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.${client.domain}&size=128`} 
+                      alt={client.name} 
+                      className="w-10 h-10 md:w-12 md:h-12 object-contain bg-white rounded-md shadow-sm border border-slate-100 p-1"
+                    />
+                    <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800">
                         {client.name}
                     </span>
                 </div>

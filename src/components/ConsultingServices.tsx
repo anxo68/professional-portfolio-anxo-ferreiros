@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Target, Scale, CheckCircle2 } from 'lucide-react';
+import { Target, Scale, CheckCircle2, TrendingDown, ShieldAlert } from 'lucide-react';
 
 export default function ConsultingServices() {
   const t = useTranslations('Consulting');
@@ -22,6 +22,18 @@ export default function ConsultingServices() {
       title: t('s3Title'),
       desc: t('s3Desc'),
       icon: <CheckCircle2 className="w-8 h-8 text-blue-100" />
+    },
+    {
+      id: 's4',
+      title: t('s4Title'),
+      desc: t('s4Desc'),
+      icon: <TrendingDown className="w-8 h-8 text-blue-100" />
+    },
+    {
+      id: 's5',
+      title: t('s5Title'),
+      desc: t('s5Desc'),
+      icon: <ShieldAlert className="w-8 h-8 text-blue-100" />
     }
   ];
 
@@ -41,7 +53,7 @@ export default function ConsultingServices() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {services.map((srv) => (
             <div 
               key={srv.id} 

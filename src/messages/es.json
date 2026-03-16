@@ -175,6 +175,10 @@
     "s2Title": "Gestión de Reclamaciones (Claims)",
     "s2Desc": "Peritaje técnico-contractual, negociación y resolución analítica de disputas entre promotor y contratista principal.",
     "s3Title": "Auditorías de Cronograma (EVM/P6)",
-    "s3Desc": "Evaluación independiente del avance físico real, detección temprana de desviaciones temporales y control de Cash-flow."
+    "s3Desc": "Evaluación independiente del avance físico real, detección temprana de desviaciones temporales y control de Cash-flow.",
+    "s4Title": "Análise de Custos",
+    "s4Desc": "Control rigoroso do gasto de obra, certificacións e impacto de desviacións a través de metodoloxías áxiles e tradicionais.",
+    "s5Title": "Xestión de Riscos",
+    "s5Desc": "Identificación, mitigación e monitorización de continxencias técnicas e contractuais en todas as fases do ciclo de vida EPC."
   }
 }
