@@ -17,7 +17,7 @@ const markers = [
     markerOffset: -25,
     name: "España (Cuenca)",
     projects: "Sabinar Hive",
-    capacity: "",
+    capacity: "408 MWp",
     coordinates: [-2.1, 40.0] as [number, number],
   },
   {
@@ -25,7 +25,7 @@ const markers = [
     name: "Colombia (Barranquilla)",
     projects: "Bosques Solares de Bolívar",
     capacity: "125 MWp",
-    coordinates: [-102.3, 21.8] as [number, number],
+    coordinates: [-74.8, 11.0] as [number, number],
   },
   {
     markerOffset: 15,
@@ -45,15 +45,15 @@ const markers = [
     markerOffset: -25,
     name: "México (Monterrey)",
     projects: "P.E. Dolores",
-    capacity: "",
+    capacity: "274 MW",
     coordinates: [-100.3, 25.6] as [number, number],
   },
   {
     markerOffset: 15,
     name: "México (Aguascalientes)",
     projects: "P.F.V. Los Cuervos",
-    capacity: "",
-    coordinates: [-74.8, 11.0] as [number, number],
+    capacity: "270 MWp",
+    coordinates: [-102.3, 21.8] as [number, number],
   }
 ];
 
