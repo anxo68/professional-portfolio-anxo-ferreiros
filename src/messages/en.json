@@ -176,9 +176,9 @@
     "s2Desc": "Technical-contractual expertise, negotiation, and analytical resolution of disputes between pure stakeholders.",
     "s3Title": "Schedule Audits (EVM/P6)",
     "s3Desc": "Independent assessment of real physical progress, early detection of schedule deviations, and Cash-flow control.",
-    "s4Title": "Análise de Custos",
-    "s4Desc": "Control rigoroso do gasto de obra, certificacións e impacto de desviacións a través de metodoloxías áxiles e tradicionais.",
-    "s5Title": "Xestión de Riscos",
-    "s5Desc": "Identificación, mitigación e monitorización de continxencias técnicas e contractuais en todas as fases do ciclo de vida EPC."
+    "s4Title": "Cost Analysis",
+    "s4Desc": "Calculation of the Cost Baseline (CB) and validation. Tracking and monitoring, if required according to recognized standards (EVM (PMI)).",
+    "s5Title": "Risk Management",
+    "s5Desc": "Identification, mitigation, and monitoring of technical and contractual contingencies in all phases of the EPC lifecycle."
   }
 }
