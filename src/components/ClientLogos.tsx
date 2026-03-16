@@ -13,7 +13,7 @@ export default function ClientLogos() {
     { name: 'SENER', domain: 'group.sener' },
     { name: 'Gransolar', domain: 'gransolar.com' },
     { name: 'Negratin', domain: 'negratin.com' },
-    { name: 'Prodiel', domain: 'prodiel.com' },
+    { name: 'Prodiel', customImg: 'https://prodiel.com/wp-content/uploads/2021/04/Logo-Prodiel-cabecera-Retina.png' },
   ];
 
   return (
@@ -33,9 +33,12 @@ export default function ClientLogos() {
             {[...clients, ...clients, ...clients].map((client, idx) => (
                 <div key={idx} className="flex-none flex items-center gap-4 mx-8 md:mx-16 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
                     <img 
-                      src={`https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.${client.domain}&size=128`} 
+                      src={client.customImg 
+                        ? client.customImg 
+                        : `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.${client.domain}&size=128`
+                      }
                       alt={client.name} 
-                      className="w-10 h-10 md:w-12 md:h-12 object-contain bg-white rounded-md shadow-sm border border-slate-100 p-1"
+                      className="h-8 md:h-12 w-auto object-contain bg-white rounded-md p-1"
                     />
                     <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800">
                         {client.name}
