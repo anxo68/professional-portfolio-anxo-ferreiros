@@ -72,14 +72,16 @@
       "client": "PAE – Pan American Energy (Argentina)",
       "magnitude": "80 MW",
       "budget": "200 M USD",
-      "description": "Proyecto de Cierre de Ciclo abierto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Gestión del Control de Proyectos (Costes, cash-flow, reestimaciones, planificación Primavera P6, certificaciones y claims)."
+      "description": "Proyecto de Cierre de Ciclo abierto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Gestión del Control de Proyectos (Costes, cash-flow, reestimaciones, planificación Primavera P6, certificaciones y claims).",
+      "images": []
     },
     "project5": {
       "name": "Ampliación Planta Potabilizadora \"General Belgrano\"",
       "client": "AySA – Aguas y Saneamientos Argentinos (Argentina)",
       "magnitude": "Ampliación a 2.900.000 m³",
       "budget": "150 M USD",
-      "description": "Gerente de Contrato. Liderazgo en el control de costes (EVM), planificación temporal de actividades complejas, cálculo de cash-flow y gestión de órdenes de cambio garantizando el desempeño del cronograma."
+      "description": "Gerente de Contrato. Liderazgo en el control de costes (EVM), planificación temporal de actividades complejas, cálculo de cash-flow y gestión de órdenes de cambio garantizando el desempeño del cronograma.",
+      "images": []
     },
     "project6": {
       "name": "Parque Fotovoltaico Bosques Solares de Bolívar",

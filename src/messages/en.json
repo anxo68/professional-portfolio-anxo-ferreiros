@@ -72,14 +72,16 @@
       "client": "PAE – Pan American Energy (Argentina)",
       "magnitude": "80 MW",
       "budget": "200 M USD",
-      "description": "Open Cycle to Combined Cycle conversion project (2-1 system: gas turbines - steam turbine). Project Control management (Costs, cash-flow, re-estimations, Primavera P6 planning, certifications, and claims)."
+      "description": "Open Cycle to Combined Cycle conversion project (2-1 system: gas turbines - steam turbine). Project Control management (Costs, cash-flow, re-estimations, Primavera P6 planning, certifications, and claims).",
+      "images": []
     },
     "project5": {
       "name": "Expansion of \"General Belgrano\" Water Treatment Plant",
       "client": "AySA – Aguas y Saneamientos Argentinos (Argentina)",
       "magnitude": "Expansion to 2,900,000 m³",
       "budget": "150 M USD",
-      "description": "Contract Manager. Led cost control (EVM), complex temporal activity planning, cash-flow calculation, and change order management ensuring schedule performance."
+      "description": "Contract Manager. Led cost control (EVM), complex temporal activity planning, cash-flow calculation, and change order management ensuring schedule performance.",
+      "images": []
     },
     "project6": {
       "name": "Parque Fotovoltaico Bosques Solares de Bolívar",

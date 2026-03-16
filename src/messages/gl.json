@@ -72,14 +72,16 @@
       "client": "PAE – Pan American Energy (Arxentina)",
       "magnitude": "80 MW",
       "budget": "200 M USD",
-      "description": "Proxecto de Peche de Ciclo aberto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Xestión do Control de Proxectos (Custos, cash-flow, reestimacións, planificación Primavera P6, certificacións e claims)."
+      "description": "Proxecto de Peche de Ciclo aberto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Xestión do Control de Proxectos (Custos, cash-flow, reestimacións, planificación Primavera P6, certificacións e claims).",
+      "images": []
     },
     "project5": {
       "name": "Ampliación Planta Potabilizadora \"General Belgrano\"",
       "client": "AySA – Aguas y Saneamientos Argentinos (Arxentina)",
       "magnitude": "Ampliación a 2.900.000 m³",
       "budget": "150 M USD",
-      "description": "Xerente de Contrato. Liderado no control de custos (EVM), planificación temporal de actividades complexas, cálculo de cash-flow e xestión de ordes de cambio garantindo o desempeño do cronograma."
+      "description": "Xerente de Contrato. Liderado no control de custos (EVM), planificación temporal de actividades complexas, cálculo de cash-flow e xestión de ordes de cambio garantindo o desempeño do cronograma.",
+      "images": []
     },
     "project6": {
       "name": "Parque Fotovoltaico Bosques Solares de Bolívar",
