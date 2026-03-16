@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Briefcase, Activity, ShieldCheck, Zap, Users } from 'lucide-react';
+import { Briefcase, Activity, ShieldCheck, Zap, Users, MessageSquare } from 'lucide-react';
 
 export default function Skills() {
   const t = useTranslations('Skills');
@@ -34,6 +34,12 @@ export default function Skills() {
       title: t('operations'),
       desc: t('operationsDesc'),
       icon: <Users className="w-6 h-6 text-emerald-600" />
+    },
+    {
+      id: 'stakeholders',
+      title: t('stakeholders'),
+      desc: t('stakeholdersDesc'),
+      icon: <MessageSquare className="w-6 h-6 text-blue-600" />
     }
   ];
 
