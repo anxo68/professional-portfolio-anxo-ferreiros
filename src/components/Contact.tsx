@@ -147,7 +147,7 @@ export default function Contact() {
       </div>
 
       {/* Floating Lead Magnet (Executive Summary) */}
-      <div className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-50 animate-fade-in-up">
+      <div className="fixed bottom-6 left-6 sm:bottom-10 sm:left-10 z-50 animate-fade-in-up">
         <DownloadSummaryButton 
           dict={messages} 
           variant="secondary" 

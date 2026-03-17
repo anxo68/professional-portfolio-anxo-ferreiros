@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Wind, X, MessageSquare, ChevronDown, Download, ExternalLink } from 'lucide-react';
+import { Fan, X, MessageSquare, ChevronDown, Download, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
 
 export default function AeroBot() {
@@ -70,7 +70,7 @@ export default function AeroBot() {
         <div className="bg-gradient-to-r from-slate-900 to-blue-900 text-white p-4 flex items-center justify-between shadow-md">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm shadow-inner relative overflow-hidden">
-                <Wind className="w-6 h-6 text-emerald-300 animate-spin-slow" />
+                <Fan className="w-6 h-6 text-emerald-300 animate-spin-slow" />
             </div>
             <div>
               <h3 className="font-bold leading-tight">AeroBot</h3>
@@ -139,7 +139,7 @@ export default function AeroBot() {
         ) : (
             <div className="relative">
                 <MessageSquare className="w-7 h-7 text-blue-300 absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <Wind className="w-8 h-8 text-emerald-400 animate-spin-slow group-hover:opacity-0 transition-opacity duration-300" />
+                <Fan className="w-8 h-8 text-emerald-400 animate-spin-slow group-hover:opacity-0 transition-opacity duration-300" />
             </div>
         )}
       </button>
