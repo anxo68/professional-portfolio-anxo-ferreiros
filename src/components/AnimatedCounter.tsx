@@ -20,8 +20,10 @@ export default function AnimatedCounter({ value }: { value: string }) {
     let isDecimalProp = false; // like 1.2
 
     // Simple heuristic for our specific portfolio cases
-    if (numStr === '1.000') {
-      endValue = 1000;
+    const isThousandFormat = numStr.includes('.') && numStr.split('.')[1].length === 3;
+
+    if (isThousandFormat) {
+      endValue = parseInt(numStr.replace('.', ''), 10);
       isThousandDot = true;
     } else if (numStr.includes('.')) {
       endValue = parseFloat(numStr);
