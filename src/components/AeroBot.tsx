@@ -7,10 +7,10 @@ import Link from 'next/link';
 
 // Custom Wind Turbine SVG icon (only blades spin!)
 const WindTurbineIcon = ({ className = '' }: { className?: string }) => (
-  <div className={`relative w-8 h-8 flex flex-col items-center ${className}`}>
+  <div className={`relative w-14 h-14 flex flex-col items-center justify-center ${className}`}>
     {/* Rotor (Spins smoothly over 4 seconds) */}
     <div className="absolute top-[-2px] z-10 animate-spin" style={{ animationDuration: '4s', animationTimingFunction: 'linear' }}>
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="56" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="12" cy="12" r="1.5" fill="#10b981" />
         <path d="M12 10.5C11.5 7 11.2 3 12 1C12.8 3 12.5 7 12 10.5Z" fill="#10b981" />
         <path d="M12 10.5C11.5 7 11.2 3 12 1C12.8 3 12.5 7 12 10.5Z" fill="#10b981" transform="rotate(120 12 12)" />
@@ -18,7 +18,7 @@ const WindTurbineIcon = ({ className = '' }: { className?: string }) => (
       </svg>
     </div>
     {/* Tower (Static base) */}
-    <div className="w-[3px] h-[20px] bg-slate-400 rounded-t-full z-0 mt-[10px]"></div>
+    <div className="w-[5px] h-[40px] bg-slate-400 rounded-t-full z-0 mt-[24px]"></div>
   </div>
 );
 
@@ -143,19 +143,19 @@ export default function AeroBot() {
       {/* Floating Action Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-16 h-16 bg-white text-emerald-600 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-slate-100 flex items-center justify-center hover:scale-105 transition-all hover:shadow-[0_8px_30px_rgba(16,185,129,0.2)] active:scale-95 relative group"
+        className="w-24 h-24 bg-white text-emerald-600 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-slate-100 flex items-center justify-center hover:scale-105 transition-all hover:shadow-[0_8px_30px_rgba(16,185,129,0.2)] active:scale-95 relative group"
         aria-label="Open chat"
       >
-        <span className="absolute -top-1 -right-1 flex h-4 w-4">
+        <span className="absolute top-0 right-0 flex h-6 w-6">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-4 w-4 bg-emerald-500 border-2 border-white"></span>
+          <span className="relative inline-flex rounded-full h-6 w-6 bg-emerald-500 border-2 border-white"></span>
         </span>
         
         {isOpen ? (
-            <X className="w-7 h-7 text-slate-600" />
+            <X className="w-10 h-10 text-slate-600" />
         ) : (
             <div className="relative flex items-center justify-center w-full h-full">
-                <MessageSquare className="w-7 h-7 text-blue-500 absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-50 group-hover:scale-100" />
+                <MessageSquare className="w-10 h-10 text-blue-500 absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-50 group-hover:scale-100" />
                 <div className="group-hover:opacity-0 transition-opacity duration-300">
                     <WindTurbineIcon />
                 </div>
