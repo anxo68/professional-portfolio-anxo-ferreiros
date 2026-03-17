@@ -30,7 +30,7 @@ export default function VisitorCounter() {
   return (
     <div className="flex items-center justify-center space-x-2 text-slate-500 text-xs mt-3 mb-4 font-mono">
       <div className="flex space-x-1">
-        {visits.toString().padStart(5, '0').split('').map((digit, i) => (
+        {visits.toString().split('').map((digit, i) => (
           <span 
             key={i} 
             className="bg-slate-800 text-emerald-400 px-1.5 py-1 rounded shadow-inner border border-slate-700"
