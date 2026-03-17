@@ -5,7 +5,7 @@ import { Document, Page, Text, View, StyleSheet, Font, Link } from '@react-pdf/r
 
 const styles = StyleSheet.create({
   page: {
-    padding: 40,
+    padding: 35,
     fontFamily: 'Helvetica',
     backgroundColor: '#ffffff',
   },
@@ -14,8 +14,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     borderBottomWidth: 2,
     borderBottomColor: '#0f172a',
-    paddingBottom: 15,
-    marginBottom: 20,
+    paddingBottom: 10,
+    marginBottom: 15,
   },
   headerLeft: {
     flexDirection: 'column',
@@ -23,12 +23,12 @@ const styles = StyleSheet.create({
     paddingRight: 10,
   },
   name: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: 'bold',
     color: '#0f172a',
   },
   role: {
-    fontSize: 12,
+    fontSize: 11,
     color: '#334155',
     marginTop: 4,
   },
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     width: '30%',
   },
   contactText: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#475569',
     marginBottom: 2,
   },
@@ -48,46 +48,46 @@ const styles = StyleSheet.create({
     textDecoration: 'none',
   },
   summary: {
-    fontSize: 10,
-    lineHeight: 1.5,
+    fontSize: 9,
+    lineHeight: 1.4,
     color: '#334155',
-    marginBottom: 20,
+    marginBottom: 15,
   },
   kpiContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 25,
+    marginBottom: 15,
   },
   kpiBox: {
     width: '23%',
     backgroundColor: '#f8fafc',
-    padding: 10,
+    padding: 8,
     borderRadius: 4,
     textAlign: 'center',
     borderWidth: 1,
     borderColor: '#e2e8f0',
   },
   kpiValue: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: 'bold',
     color: '#059669',
   },
   kpiLabel: {
-    fontSize: 8,
+    fontSize: 7,
     color: '#64748b',
-    marginTop: 4,
+    marginTop: 3,
     textTransform: 'uppercase',
   },
   sectionTitle: {
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: 'bold',
     color: '#0f172a',
     backgroundColor: '#f1f5f9',
-    padding: 6,
-    marginBottom: 10,
+    padding: 4,
+    marginBottom: 6,
   },
   projectRow: {
-    marginBottom: 10,
+    marginBottom: 6,
   },
   projectHeader: {
     flexDirection: 'row',
@@ -95,53 +95,53 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   projectName: {
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: 'bold',
     color: '#1e293b',
   },
   projectMeta: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#059669',
     fontWeight: 'bold',
   },
   projectDesc: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#475569',
-    lineHeight: 1.4,
+    lineHeight: 1.3,
   },
   expRow: {
-    marginBottom: 8,
+    marginBottom: 6,
   },
   expHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
   expTitle: {
-    fontSize: 10,
+    fontSize: 9,
     fontWeight: 'bold',
     color: '#1e293b',
   },
   expDate: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#64748b',
   },
   expDesc: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#475569',
     marginTop: 2,
   },
   footer: {
     position: 'absolute',
-    bottom: 30,
+    bottom: 20,
     left: 40,
     right: 40,
     textAlign: 'center',
     borderTopWidth: 1,
     borderTopColor: '#e2e8f0',
-    paddingTop: 10,
+    paddingTop: 8,
   },
   footerText: {
-    fontSize: 8,
+    fontSize: 7,
     color: '#94a3b8',
   }
 });
