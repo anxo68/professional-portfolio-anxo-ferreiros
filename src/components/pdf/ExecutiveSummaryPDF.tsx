@@ -5,7 +5,10 @@ import { Document, Page, Text, View, StyleSheet, Font, Link } from '@react-pdf/r
 
 const styles = StyleSheet.create({
   page: {
-    padding: 35,
+    paddingTop: 30,
+    paddingBottom: 25,
+    paddingLeft: 35,
+    paddingRight: 35,
     fontFamily: 'Helvetica',
     backgroundColor: '#ffffff',
   },
@@ -14,8 +17,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     borderBottomWidth: 2,
     borderBottomColor: '#0f172a',
-    paddingBottom: 10,
-    marginBottom: 15,
+    paddingBottom: 8,
+    marginBottom: 10,
   },
   headerLeft: {
     flexDirection: 'column',
@@ -51,12 +54,12 @@ const styles = StyleSheet.create({
     fontSize: 9,
     lineHeight: 1.4,
     color: '#334155',
-    marginBottom: 15,
+    marginBottom: 10,
   },
   kpiContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 15,
+    marginBottom: 10,
   },
   kpiBox: {
     width: '23%',
@@ -83,11 +86,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#0f172a',
     backgroundColor: '#f1f5f9',
-    padding: 4,
-    marginBottom: 6,
+    padding: 3,
+    marginBottom: 4,
   },
   projectRow: {
-    marginBottom: 6,
+    marginBottom: 4,
   },
   projectHeader: {
     flexDirection: 'row',
@@ -110,7 +113,7 @@ const styles = StyleSheet.create({
     lineHeight: 1.3,
   },
   expRow: {
-    marginBottom: 6,
+    marginBottom: 4,
   },
   expHeader: {
     flexDirection: 'row',
@@ -132,13 +135,13 @@ const styles = StyleSheet.create({
   },
   footer: {
     position: 'absolute',
-    bottom: 20,
+    bottom: 12,
     left: 40,
     right: 40,
     textAlign: 'center',
     borderTopWidth: 1,
     borderTopColor: '#e2e8f0',
-    paddingTop: 8,
+    paddingTop: 6,
   },
   footerText: {
     fontSize: 7,
@@ -228,7 +231,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
         </View>
 
         {/* EXPERIENCE */}
-        <Text style={[styles.sectionTitle, { marginTop: 10 }]}>{dict.Experience.title}</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 5 }]}>{dict.Experience.title}</Text>
         
         <View style={styles.expRow}>
           <View style={styles.expHeader}>
@@ -255,7 +258,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
         </View>
 
         {/* EDUCATION & ACADEMIC KNOWLEDGE */}
-        <Text style={[styles.sectionTitle, { marginTop: 10 }]}>{dict.Education.title}</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 5 }]}>{dict.Education.title}</Text>
 
         <View style={styles.expRow}>
           <View style={styles.expHeader}>
