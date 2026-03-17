@@ -4,6 +4,7 @@ import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import AeroBot from '@/components/AeroBot';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
       <body className={`${inter.className} text-slate-800 bg-white antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}
+          <AeroBot />
         </NextIntlClientProvider>
       </body>
     </html>

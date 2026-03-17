@@ -185,5 +185,18 @@
     "s5Desc": "Identificación, mitigación y monitorización de contingencias técnicas y contractuales en todas las fases del ciclo de vida EPC.",
     "s6Title": "Technical Advisor",
     "s6Desc": "Proporcionar consejos expertos, resolver problemas complejos y guiar la toma de decisiones técnicas."
+  },
+  "AeroBot": {
+    "greeting": "¡Hola! Soy Turbi 🍃, tu asistente virtual. ¿En qué te puedo ayudar hoy con el perfil de Anxo?",
+    "q1": "¿Cuál es tu experiencia técnica?",
+    "a1": "Anxo tiene más de 30 años de experiencia técnica liderando proyectos tipo EPC, O&M y Greenfield. Especialmente centrado en Energías Renovables (Eólica, Solar, Hidrógeno), Agua e Infraestructuras.",
+    "q2": "Quiero descargar el Executive Summary",
+    "a2": "¡Excelente elección! Puedes descargarlo directamente en formato PDF desde la sección superior (Sobre Mí) o haciendo clic en el siguiente enlace rápido.",
+    "q3": "¿Qué metodologías de control aplica?",
+    "a3": "Anxo aplica rigurosamente estándares del PMI (Earned Value Management - EVM), control presupuestario avanzado, Primavera P6 para Schedule Audits, y metodologías ágiles y analíticas para la resolución de Claims.",
+    "q4": "Quiero contactar para Consultoría",
+    "a4": "Perfecto. Te animo a utilizar el formulario de contacto oficial al final de la página o, si lo prefieres, a través de LinkedIn. Anxo revisa todas sus solicitudes de asesoramiento de alto nivel personalmente.",
+    "downloadPdf": "Descargar PDF Ahora",
+    "contactBtn": "Ir a Contacto"
   }
 }
