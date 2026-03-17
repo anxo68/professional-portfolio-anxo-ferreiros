@@ -182,6 +182,8 @@
     "s4Title": "Análisis de Costes",
     "s4Desc": "Cálculo de la Línea Base (LB) de Costes y validación. Seguimiento y monitorización, si se requiere según los estándares reconocidos (EVM (PMI)).",
     "s5Title": "Gestión de Riesgos",
-    "s5Desc": "Identificación, mitigación y monitorización de contingencias técnicas y contractuales en todas las fases del ciclo de vida EPC."
+    "s5Desc": "Identificación, mitigación y monitorización de contingencias técnicas y contractuales en todas las fases del ciclo de vida EPC.",
+    "s6Title": "Technical Advisor",
+    "s6Desc": "Proporcionar consejos expertos, resolver problemas complejos y guiar la toma de decisiones técnicas."
   }
 }

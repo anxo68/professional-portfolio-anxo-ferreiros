@@ -182,6 +182,8 @@
     "s4Title": "Cost Analysis",
     "s4Desc": "Calculation of the Cost Baseline (CB) and validation. Tracking and monitoring, if required according to recognized standards (EVM (PMI)).",
     "s5Title": "Risk Management",
-    "s5Desc": "Identification, mitigation, and monitoring of technical and contractual contingencies in all phases of the EPC lifecycle."
+    "s5Desc": "Identification, mitigation, and monitoring of technical and contractual contingencies in all phases of the EPC lifecycle.",
+    "s6Title": "Technical Advisor",
+    "s6Desc": "Provide expert advice, solve complex problems, and guide technical decision-making."
   }
 }

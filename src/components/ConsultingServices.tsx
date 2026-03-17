@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Target, Scale, CheckCircle2, TrendingDown, ShieldAlert } from 'lucide-react';
+import { Target, Scale, CheckCircle2, TrendingDown, ShieldAlert, Lightbulb } from 'lucide-react';
 
 export default function ConsultingServices() {
   const t = useTranslations('Consulting');
@@ -34,6 +34,12 @@ export default function ConsultingServices() {
       title: t('s5Title'),
       desc: t('s5Desc'),
       icon: <ShieldAlert className="w-8 h-8 text-blue-100" />
+    },
+    {
+      id: 's6',
+      title: t('s6Title'),
+      desc: t('s6Desc'),
+      icon: <Lightbulb className="w-8 h-8 text-blue-100" />
     }
   ];
 
