@@ -2,8 +2,25 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Fan, X, MessageSquare, ChevronDown, Download, ExternalLink } from 'lucide-react';
+import { X, MessageSquare, ChevronDown, Download, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+
+// Custom Wind Turbine SVG icon (only blades spin!)
+const WindTurbineIcon = ({ className = '' }: { className?: string }) => (
+  <div className={`relative w-8 h-8 flex flex-col items-center ${className}`}>
+    {/* Rotor (Spins smoothly over 4 seconds) */}
+    <div className="absolute top-[-2px] z-10 animate-spin" style={{ animationDuration: '4s', animationTimingFunction: 'linear' }}>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="1.5" fill="#10b981" />
+        <path d="M12 10.5C11.5 7 11.2 3 12 1C12.8 3 12.5 7 12 10.5Z" fill="#10b981" />
+        <path d="M12 10.5C11.5 7 11.2 3 12 1C12.8 3 12.5 7 12 10.5Z" fill="#10b981" transform="rotate(120 12 12)" />
+        <path d="M12 10.5C11.5 7 11.2 3 12 1C12.8 3 12.5 7 12 10.5Z" fill="#10b981" transform="rotate(240 12 12)" />
+      </svg>
+    </div>
+    {/* Tower (Static base) */}
+    <div className="w-[3px] h-[20px] bg-slate-400 rounded-t-full z-0 mt-[10px]"></div>
+  </div>
+);
 
 export default function AeroBot() {
   const t = useTranslations('AeroBot');
@@ -69,8 +86,8 @@ export default function AeroBot() {
         {/* Header */}
         <div className="bg-gradient-to-r from-slate-900 to-blue-900 text-white p-4 flex items-center justify-between shadow-md">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center backdrop-blur-sm shadow-inner relative overflow-hidden">
-                <Fan className="w-6 h-6 text-emerald-300 animate-spin-slow" />
+            <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center backdrop-blur-sm shadow-inner relative overflow-hidden">
+                <WindTurbineIcon className="scale-75 translate-y-[2px]" />
             </div>
             <div>
               <h3 className="font-bold leading-tight">AeroBot</h3>
@@ -126,20 +143,22 @@ export default function AeroBot() {
       {/* Floating Action Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-16 h-16 bg-slate-900 text-white rounded-full shadow-2xl flex items-center justify-center hover:scale-105 transition-transform hover:shadow-blue-500/20 active:scale-95 relative group border-2 border-slate-800"
+        className="w-16 h-16 bg-white text-emerald-600 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] border border-slate-100 flex items-center justify-center hover:scale-105 transition-all hover:shadow-[0_8px_30px_rgba(16,185,129,0.2)] active:scale-95 relative group"
         aria-label="Open chat"
       >
         <span className="absolute -top-1 -right-1 flex h-4 w-4">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-4 w-4 bg-emerald-500 border-2 border-slate-900"></span>
+          <span className="relative inline-flex rounded-full h-4 w-4 bg-emerald-500 border-2 border-white"></span>
         </span>
         
         {isOpen ? (
-            <X className="w-7 h-7" />
+            <X className="w-7 h-7 text-slate-600" />
         ) : (
-            <div className="relative">
-                <MessageSquare className="w-7 h-7 text-blue-300 absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                <Fan className="w-8 h-8 text-emerald-400 animate-spin-slow group-hover:opacity-0 transition-opacity duration-300" />
+            <div className="relative flex items-center justify-center w-full h-full">
+                <MessageSquare className="w-7 h-7 text-blue-500 absolute opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-50 group-hover:scale-100" />
+                <div className="group-hover:opacity-0 transition-opacity duration-300">
+                    <WindTurbineIcon />
+                </div>
             </div>
         )}
       </button>
