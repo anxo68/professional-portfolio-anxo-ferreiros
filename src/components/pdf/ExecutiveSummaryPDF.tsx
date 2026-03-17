@@ -5,10 +5,10 @@ import { Document, Page, Text, View, StyleSheet, Font, Link } from '@react-pdf/r
 
 const styles = StyleSheet.create({
   page: {
-    paddingTop: 25,
-    paddingBottom: 20,
-    paddingLeft: 30,
-    paddingRight: 30,
+    paddingTop: 30,
+    paddingBottom: 25,
+    paddingLeft: 35,
+    paddingRight: 35,
     fontFamily: 'Helvetica',
     backgroundColor: '#ffffff',
   },
@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     borderBottomWidth: 2,
     borderBottomColor: '#0f172a',
-    paddingBottom: 6,
-    marginBottom: 8,
+    paddingBottom: 8,
+    marginBottom: 10,
   },
   headerLeft: {
     flexDirection: 'column',
@@ -26,14 +26,14 @@ const styles = StyleSheet.create({
     paddingRight: 10,
   },
   name: {
-    fontSize: 20,
+    fontSize: 21,
     fontWeight: 'bold',
     color: '#0f172a',
   },
   role: {
-    fontSize: 10,
+    fontSize: 10.5,
     color: '#334155',
-    marginTop: 3,
+    marginTop: 4,
   },
   headerRight: {
     flexDirection: 'column',
@@ -51,46 +51,46 @@ const styles = StyleSheet.create({
     textDecoration: 'none',
   },
   summary: {
-    fontSize: 8.5,
-    lineHeight: 1.35,
+    fontSize: 9,
+    lineHeight: 1.4,
     color: '#334155',
-    marginBottom: 8,
+    marginBottom: 12,
   },
   kpiContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 8,
+    marginBottom: 12,
   },
   kpiBox: {
     width: '23%',
     backgroundColor: '#f8fafc',
-    padding: 6,
+    padding: 7,
     borderRadius: 4,
     textAlign: 'center',
     borderWidth: 1,
     borderColor: '#e2e8f0',
   },
   kpiValue: {
-    fontSize: 13,
+    fontSize: 13.5,
     fontWeight: 'bold',
     color: '#059669',
   },
   kpiLabel: {
-    fontSize: 6.5,
+    fontSize: 7,
     color: '#64748b',
-    marginTop: 2,
+    marginTop: 3,
     textTransform: 'uppercase',
   },
   sectionTitle: {
-    fontSize: 10,
+    fontSize: 10.5,
     fontWeight: 'bold',
     color: '#0f172a',
     backgroundColor: '#f1f5f9',
     padding: 3,
-    marginBottom: 4,
+    marginBottom: 5,
   },
   projectRow: {
-    marginBottom: 3,
+    marginBottom: 4,
   },
   projectHeader: {
     flexDirection: 'row',
@@ -98,40 +98,40 @@ const styles = StyleSheet.create({
     marginBottom: 2,
   },
   projectName: {
-    fontSize: 8.5,
+    fontSize: 9,
     fontWeight: 'bold',
     color: '#1e293b',
   },
   projectMeta: {
-    fontSize: 7.5,
+    fontSize: 8,
     color: '#059669',
     fontWeight: 'bold',
   },
   projectDesc: {
-    fontSize: 7.5,
+    fontSize: 8,
     color: '#475569',
-    lineHeight: 1.3,
+    lineHeight: 1.35,
   },
   expRow: {
-    marginBottom: 3,
+    marginBottom: 4,
   },
   expHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
   expTitle: {
-    fontSize: 8.5,
+    fontSize: 9,
     fontWeight: 'bold',
     color: '#1e293b',
   },
   expDate: {
-    fontSize: 7.5,
+    fontSize: 8,
     color: '#64748b',
   },
   expDesc: {
-    fontSize: 7.5,
+    fontSize: 8,
     color: '#475569',
-    marginTop: 1,
+    marginTop: 2,
   },
   footer: {
     position: 'absolute',
@@ -231,7 +231,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
         </View>
 
         {/* EXPERIENCE */}
-        <Text style={[styles.sectionTitle, { marginTop: 5 }]}>{dict.Experience.title}</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 6 }]}>{dict.Experience.title}</Text>
         
         <View style={styles.expRow}>
           <View style={styles.expHeader}>
@@ -258,7 +258,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
         </View>
 
         {/* EDUCATION & ACADEMIC KNOWLEDGE */}
-        <Text style={[styles.sectionTitle, { marginTop: 5 }]}>{dict.Education.title}</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 6 }]}>{dict.Education.title}</Text>
 
         <View style={styles.expRow}>
           <View style={styles.expHeader}>
