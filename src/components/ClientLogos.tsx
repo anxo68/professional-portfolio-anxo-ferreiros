@@ -17,17 +17,17 @@ export default function ClientLogos() {
   ];
 
   return (
-    <section className="py-16 bg-white overflow-hidden border-b border-slate-100">
+    <section className="py-16 bg-white dark:bg-slate-900 overflow-hidden border-b border-slate-100 dark:border-slate-800 transition-colors duration-300">
       <div className="container mx-auto px-6 md:px-12 pb-10 text-center">
-        <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-widest">
+        <h3 className="text-sm font-semibold text-slate-400 dark:text-slate-500 uppercase tracking-widest">
           {t('title')}
         </h3>
       </div>
       
       {/* Endless Horizontal Scroll Effect */}
       <div className="relative w-full flex overflow-x-hidden group">
-        <div className="absolute top-0 bottom-0 left-0 w-24 md:w-48 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
-        <div className="absolute top-0 bottom-0 right-0 w-24 md:w-48 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
+        <div className="absolute top-0 bottom-0 left-0 w-24 md:w-48 bg-gradient-to-r from-white dark:from-slate-900 to-transparent z-10 pointer-events-none"></div>
+        <div className="absolute top-0 bottom-0 right-0 w-24 md:w-48 bg-gradient-to-l from-white dark:from-slate-900 to-transparent z-10 pointer-events-none"></div>
 
         <div className="flex animate-marquee group-hover:pause whitespace-nowrap items-center w-max">
             {[...clients, ...clients].map((client, idx) => (
@@ -38,10 +38,10 @@ export default function ClientLogos() {
                         : `https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.${client.domain}&size=128`
                       }
                       alt={client.name} 
-                      className={`${client.customClass || 'h-8 md:h-12'} w-auto object-contain bg-white rounded-md p-1`}
+                      className={`${client.customClass || 'h-8 md:h-12'} w-auto object-contain bg-white dark:bg-slate-800 rounded-md p-1`}
                     />
                     {!client.hideName && (
-                        <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800">
+                        <span className="text-2xl md:text-3xl font-bold tracking-tight text-slate-800 dark:text-white">
                             {client.name}
                         </span>
                     )}

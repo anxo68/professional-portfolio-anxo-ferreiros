@@ -12,9 +12,9 @@ export default function ImpactMetrics() {
   ];
 
   return (
-    <section className="py-12 bg-blue-900 border-y border-blue-950">
+    <section className="py-12 bg-blue-900 dark:bg-slate-950 border-y border-blue-950 dark:border-slate-900 transition-colors duration-300">
       <div className="container mx-auto px-6 md:px-12 max-w-6xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x-0 md:divide-x divide-blue-800 text-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x-0 md:divide-x divide-blue-800 dark:divide-slate-800 text-center">
           {metrics.map((metric, index) => (
             <div key={index} className="flex flex-col items-center justify-center p-4">
               <span className="text-4xl md:text-5xl font-extrabold text-white mb-2 drop-shadow-md">

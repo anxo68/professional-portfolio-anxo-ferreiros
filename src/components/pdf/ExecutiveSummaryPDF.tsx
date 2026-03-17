@@ -166,7 +166,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
           </View>
           <View style={styles.headerRight}>
             <Text style={styles.contactText}>anxo.x.ferreiros@gmail.com</Text>
-            <Link src="https://linkedin.com/in/anxoferreiros"><Text style={[styles.contactText, styles.link]}>linkedin.com/in/anxoferreiros</Text></Link>
+            <Link src="https://www.linkedin.com/in/anxo-xos%C3%A9-ferreir%C3%B3s-otero-83a0425b/"><Text style={[styles.contactText, styles.link]}>linkedin.com/in/anxo-xosé-ferreirós-otero-83a0425b</Text></Link>
           </View>
         </View>
 

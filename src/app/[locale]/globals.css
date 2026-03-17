@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
   --color-brand-50: #ecfdf5;
   --color-brand-100: #d1fae5;
@@ -22,10 +23,7 @@
     to { transform: rotate(360deg); }
   }
 
-  /* Utility classes */
-  .animate-spin-slow {
-    animation: spin-slow 8s linear infinite;
-  }
+  --animate-spin-slow: spin-slow 8s linear infinite;
 
 
   @keyframes marquee {

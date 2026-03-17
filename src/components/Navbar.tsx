@@ -4,6 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/routing';
 import { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
+import { ThemeToggle } from '@/components/ThemeToggle';
 
 export default function Navbar() {
   const t = useTranslations('Nav');
@@ -33,7 +34,7 @@ export default function Navbar() {
   const langs = ['es', 'en', 'gl'];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* LOGO */}
         <a href="#" className="flex items-center gap-2 transition-opacity hover:opacity-80">
@@ -52,28 +53,32 @@ export default function Navbar() {
             </a>
           ))}
 
-          {/* LANG SWITCHER */}
-          <div className="flex items-center space-x-2 border-l border-slate-300 pl-6">
-            <Globe className="w-4 h-4 text-slate-400" />
-            <select
-              title="Change Language"
-              value={locale}
-              onChange={(e) => changeLocale(e.target.value)}
-              className="bg-transparent text-sm font-medium text-slate-600 outline-none cursor-pointer hover:text-emerald-700 transition-colors"
-            >
-              {langs.map((l) => (
-                <option key={l} value={l}>
-                  {l.toUpperCase()}
-                </option>
-              ))}
-            </select>
+          {/* LANG SWITCHER & THEME */}
+          <div className="flex items-center space-x-4 border-l border-slate-300 dark:border-slate-700 pl-6">
+            <div className="flex items-center space-x-2">
+              <Globe className="w-4 h-4 text-slate-400 dark:text-slate-500" />
+              <select
+                title="Change Language"
+                value={locale}
+                onChange={(e) => changeLocale(e.target.value)}
+                className="bg-transparent text-sm font-medium text-slate-600 dark:text-slate-300 outline-none cursor-pointer hover:text-emerald-700 dark:hover:text-emerald-500 transition-colors"
+              >
+                {langs.map((l) => (
+                  <option key={l} value={l} className="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+                    {l.toUpperCase()}
+                  </option>
+                ))}
+              </select>
+            </div>
+            
+            <ThemeToggle />
           </div>
         </div>
 
         {/* MOBILE MENU TOGGLE */}
         <button 
           title="Toggle Mobile Menu"
-          className="md:hidden text-slate-900" 
+          className="md:hidden text-slate-900 dark:text-white" 
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -82,32 +87,36 @@ export default function Navbar() {
 
       {/* MOBILE NAV */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg py-4 px-6 flex flex-col space-y-4 border-t border-slate-100">
+        <div className="md:hidden absolute top-full left-0 w-full bg-white dark:bg-slate-900 shadow-lg py-4 px-6 flex flex-col space-y-4 border-t border-slate-100 dark:border-slate-800">
           {navLinks.map((link) => (
             <a 
               key={link.href} 
               href={link.href} 
               onClick={() => setMobileMenuOpen(false)}
-              className="text-base font-medium text-slate-600"
+              className="text-base font-medium text-slate-600 dark:text-slate-300"
             >
               {link.label}
             </a>
           ))}
-          <div className="flex items-center space-x-2 pt-4 border-t border-slate-100">
-            <Globe className="w-5 h-5 text-slate-400" />
-            <select
-              title="Change Language"
-              value={locale}
-              onChange={(e) => {
-                changeLocale(e.target.value);
-                setMobileMenuOpen(false);
-              }}
-              className="bg-transparent text-base font-medium text-slate-600 outline-none w-full"
-            >
-              <option value="es">Español (ES)</option>
-              <option value="en">English (EN)</option>
-              <option value="gl">Galego (GL)</option>
-            </select>
+          <div className="flex items-center justify-between pt-4 border-t border-slate-100 dark:border-slate-800">
+            <div className="flex items-center space-x-2">
+              <Globe className="w-5 h-5 text-slate-400 dark:text-slate-500" />
+              <select
+                title="Change Language"
+                value={locale}
+                onChange={(e) => {
+                  changeLocale(e.target.value);
+                  setMobileMenuOpen(false);
+                }}
+                className="bg-transparent text-base font-medium text-slate-600 dark:text-slate-300 outline-none w-full"
+              >
+                <option value="es" className="dark:bg-slate-900 dark:text-white">Español (ES)</option>
+                <option value="en" className="dark:bg-slate-900 dark:text-white">English (EN)</option>
+                <option value="gl" className="dark:bg-slate-900 dark:text-white">Galego (GL)</option>
+              </select>
+            </div>
+            
+            <ThemeToggle />
           </div>
         </div>
       )}

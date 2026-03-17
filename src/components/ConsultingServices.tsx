@@ -44,7 +44,7 @@ export default function ConsultingServices() {
   ];
 
   return (
-    <section id="consulting" className="py-24 bg-slate-900 border-y border-slate-800 text-white relative overflow-hidden">
+    <section id="consulting" className="py-24 bg-slate-900 dark:bg-slate-950 border-y border-slate-800 dark:border-slate-900 text-white relative overflow-hidden transition-colors duration-300">
         {/* Subtle decorative background gradient */}
         <div className="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 rounded-full bg-blue-600/10 blur-3xl pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 -ml-32 -mb-32 w-96 h-96 rounded-full bg-emerald-600/10 blur-3xl pointer-events-none"></div>
@@ -54,7 +54,7 @@ export default function ConsultingServices() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white tracking-tight">
             {t('title')}
           </h2>
-          <p className="text-slate-300 text-lg leading-relaxed">
+          <p className="text-slate-300 dark:text-slate-400 text-lg leading-relaxed">
             {t('subtitle')}
           </p>
         </div>
@@ -63,13 +63,13 @@ export default function ConsultingServices() {
           {services.map((srv) => (
             <div 
               key={srv.id} 
-              className="bg-slate-800 rounded-2xl p-8 border border-slate-700 hover:border-blue-500/50 hover:bg-slate-800/80 transition-all group"
+              className="bg-slate-800 dark:bg-slate-900 rounded-2xl p-8 border border-slate-700 dark:border-slate-800 hover:border-blue-500/50 dark:hover:border-blue-500/50 hover:bg-slate-800/80 dark:hover:bg-slate-800 transition-all group"
             >
               <div className="w-16 h-16 rounded-xl bg-blue-600/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 {srv.icon}
               </div>
               <h3 className="text-xl font-bold text-white mb-4 leading-snug">{srv.title}</h3>
-              <p className="text-slate-400 leading-relaxed">{srv.desc}</p>
+              <p className="text-slate-400 dark:text-slate-500 leading-relaxed">{srv.desc}</p>
             </div>
           ))}
         </div>

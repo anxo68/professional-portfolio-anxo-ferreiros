@@ -17,6 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+import { ThemeProvider } from '@/components/ThemeProvider';
+
 export default async function LocaleLayout({
   children,
   params
@@ -36,11 +38,13 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className="scroll-smooth">
-      <body className={`${inter.className} text-slate-800 bg-white antialiased`}>
+    <html lang={locale} className="scroll-smooth" suppressHydrationWarning>
+      <body className={`${inter.className} text-slate-800 dark:text-slate-200 bg-white dark:bg-slate-900 antialiased`}>
         <NextIntlClientProvider messages={messages}>
-          {children}
-          <AeroBot />
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            {children}
+            <AeroBot />
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>
