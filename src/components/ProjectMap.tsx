@@ -21,11 +21,13 @@ const markers = [
     coordinates: [-2.1, 40.0] as [number, number],
   },
   {
-    markerOffset: -25,
+    markerOffset: -5,
     name: "Colombia (Barranquilla)",
     projects: "Bosques Solares de Bolívar",
     capacity: "125 MWp",
     coordinates: [-74.8, 11.0] as [number, number],
+    anchor: "start",
+    dx: 15
   },
   {
     markerOffset: 15,
@@ -42,11 +44,13 @@ const markers = [
     coordinates: [-58.3, -34.6] as [number, number],
   },
   {
-    markerOffset: -25,
+    markerOffset: -30,
     name: "México (Monterrey)",
     projects: "P.E. Dolores",
     capacity: "274 MW",
     coordinates: [-100.3, 25.6] as [number, number],
+    anchor: "end",
+    dx: -12
   },
   {
     markerOffset: 15,
@@ -54,6 +58,8 @@ const markers = [
     projects: "P.F.V. Los Cuervos",
     capacity: "270 MWp",
     coordinates: [-102.3, 21.8] as [number, number],
+    anchor: "end",
+    dx: -12
   }
 ];
 
@@ -96,7 +102,7 @@ const ProjectMap = () => {
             }
           </Geographies>
 
-          {markers.map(({ name, coordinates, markerOffset, projects, capacity }) => (
+          {markers.map(({ name, coordinates, markerOffset, projects, capacity, anchor, dx }) => (
             <Marker key={name} coordinates={coordinates}>
               <g
                 fill="none"
@@ -112,7 +118,8 @@ const ProjectMap = () => {
               </g>
               
               <text
-                textAnchor="middle"
+                textAnchor={(anchor as any) || "middle"}
+                x={dx || 0}
                 y={markerOffset}
                 style={{ fontFamily: "Inter, sans-serif", fill: "#1e293b", fontSize: "9px", fontWeight: "600" }}
                 className="pointer-events-none drop-shadow-sm"
@@ -120,7 +127,8 @@ const ProjectMap = () => {
                 {name}
               </text>
               <text
-                textAnchor="middle"
+                textAnchor={(anchor as any) || "middle"}
+                x={dx || 0}
                 y={markerOffset + 10}
                 style={{ fontFamily: "Inter, sans-serif", fill: "#475569", fontSize: "8px", fontWeight: "500" }}
                 className="pointer-events-none drop-shadow-sm"
@@ -129,7 +137,8 @@ const ProjectMap = () => {
               </text>
               {capacity && (
                 <text
-                  textAnchor="middle"
+                  textAnchor={(anchor as any) || "middle"}
+                  x={dx || 0}
                   y={markerOffset + 20}
                   style={{ fontFamily: "Inter, sans-serif", fill: "#059669", fontSize: "8px", fontWeight: "700" }}
                   className="pointer-events-none drop-shadow-sm"
