@@ -32,7 +32,7 @@ export default function AeroBot() {
 
   const faqs = [
     { key: 'q1', text: t('q1'), answer: t('a1') },
-    { key: 'q2', text: t('q2'), answer: t('a2'), isDownload: true },
+    { key: 'q2', text: t('q2'), answer: t('a2') },
     { key: 'q3', text: t('q3'), answer: t('a3') },
     { key: 'q4', text: t('q4'), answer: t('a4'), isContact: true }
   ];
@@ -48,15 +48,15 @@ export default function AeroBot() {
         content: (
           <div className="space-y-3">
             <p>{q.answer}</p>
-            {q.isDownload && (
-              <a 
-                href="/api/generate-summary" 
-                target="_blank" 
+            {q.key === 'q2' && (
+              <Link 
+                href="#portfolio" 
+                onClick={() => setIsOpen(false)}
                 className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-xs px-3 py-2 rounded-lg transition-colors mt-2"
               >
-                <Download className="w-3 h-3" />
-                {t('downloadPdf')}
-              </a>
+                <ExternalLink className="w-3 h-3" />
+                {tNav('portfolio')}
+              </Link>
             )}
             {q.isContact && (
               <Link 
