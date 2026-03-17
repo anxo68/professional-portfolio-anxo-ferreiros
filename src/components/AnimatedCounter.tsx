@@ -60,7 +60,7 @@ export default function AnimatedCounter({ value }: { value: string }) {
     
     let startTime: number | null = null;
     let animationFrameId: number;
-    const duration = 2000; // 2 seconds animation
+    const duration = 3500; // 3.5 seconds animation
     
     const step = (timestamp: number) => {
       if (!startTime) startTime = timestamp;
