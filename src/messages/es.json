@@ -146,8 +146,9 @@
     "message": "Mensaje",
     "send": "Enviar Mensaje",
     "linkedin": "Conectar en LinkedIn",
-    "downloadCv": "Solicitar CV en formulario",
-    "successMessage": "Mensaje enviado exitosamente. En breve me pondré en contacto.",
+    "downloadCv": "Solicitar CV (Descatalogado)",
+    "downloadSummary": "Descargar Executive Summary PDF",
+    "successMessage": "Mensaje enviado exitosamente. Me pondré en contacto en breve.",
     "errorMessage": "Hubo un error al enviar el mensaje. Intente de nuevo más tarde."
   },
   "Nav": {

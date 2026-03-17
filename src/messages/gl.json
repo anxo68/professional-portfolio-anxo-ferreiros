@@ -146,7 +146,8 @@
     "message": "Mensaxe",
     "send": "Enviar Mensaxe",
     "linkedin": "Conectar en LinkedIn",
-    "downloadCv": "Solicitar CV no formulario",
+    "downloadCv": "Solicitar CV (Descatalogado)",
+    "downloadSummary": "Descargar Executive Summary PDF",
     "successMessage": "Mensaxe enviada exitosamente. En breve poñereime en contacto.",
     "errorMessage": "Houbo un erro ao enviar a mensaxe. Tente de novo máis tarde."
   },

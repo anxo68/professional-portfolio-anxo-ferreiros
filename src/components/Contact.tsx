@@ -1,11 +1,13 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 import { useState } from 'react';
 import { Mail, Linkedin, FileText, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { DownloadSummaryButton } from './pdf/DownloadSummaryButton';
 
 export default function Contact() {
   const t = useTranslations('Contact');
+  const messages = useMessages();
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -66,19 +68,6 @@ export default function Contact() {
                   {t('linkedin')}
                 </span>
               </a>
-              
-              <button 
-                onClick={() => document.getElementById('name')?.focus()}
-                type="button"
-                className="flex items-center space-x-4 group text-left w-full"
-              >
-                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm border border-slate-100 group-hover:bg-slate-900 transition-colors">
-                  <FileText className="w-5 h-5 text-slate-600 group-hover:text-white transition-colors" />
-                </div>
-                <span className="text-slate-700 font-medium group-hover:text-slate-900 transition-colors">
-                  {t('downloadCv')}
-                </span>
-              </button>
             </div>
           </div>
 
@@ -155,6 +144,15 @@ export default function Contact() {
           </div>
 
         </div>
+      </div>
+
+      {/* Floating Lead Magnet (Executive Summary) */}
+      <div className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-50 animate-fade-in-up">
+        <DownloadSummaryButton 
+          dict={messages} 
+          variant="secondary" 
+          className="shadow-2xl shadow-emerald-900/20 rounded-full px-6 py-4 flex items-center justify-center space-x-2" 
+        />
       </div>
     </section>
   );

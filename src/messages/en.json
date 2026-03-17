@@ -146,7 +146,8 @@
     "message": "Message",
     "send": "Send Message",
     "linkedin": "Connect on LinkedIn",
-    "downloadCv": "Request CV via form",
+    "downloadCv": "Request CV (Deprecated)",
+    "downloadSummary": "Download Executive Summary PDF",
     "successMessage": "Message sent successfully. I will get in touch shortly.",
     "errorMessage": "There was an error sending the message. Please try again later."
   },
