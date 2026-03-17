@@ -5,10 +5,10 @@ import { Document, Page, Text, View, StyleSheet, Font, Link } from '@react-pdf/r
 
 const styles = StyleSheet.create({
   page: {
-    paddingTop: 30,
-    paddingBottom: 25,
-    paddingLeft: 35,
-    paddingRight: 35,
+    paddingTop: 40,
+    paddingBottom: 30,
+    paddingLeft: 40,
+    paddingRight: 40,
     fontFamily: 'Helvetica',
     backgroundColor: '#ffffff',
   },
@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     borderBottomWidth: 2,
     borderBottomColor: '#0f172a',
-    paddingBottom: 8,
-    marginBottom: 10,
+    paddingBottom: 12,
+    marginBottom: 16,
   },
   headerLeft: {
     flexDirection: 'column',
@@ -26,12 +26,12 @@ const styles = StyleSheet.create({
     paddingRight: 10,
   },
   name: {
-    fontSize: 21,
+    fontSize: 24,
     fontWeight: 'bold',
     color: '#0f172a',
   },
   role: {
-    fontSize: 10.5,
+    fontSize: 12,
     color: '#334155',
     marginTop: 4,
   },
@@ -42,109 +42,109 @@ const styles = StyleSheet.create({
     width: '30%',
   },
   contactText: {
-    fontSize: 8,
+    fontSize: 9,
     color: '#475569',
-    marginBottom: 2,
+    marginBottom: 3,
   },
   link: {
     color: '#2563eb',
     textDecoration: 'none',
   },
   summary: {
-    fontSize: 9,
-    lineHeight: 1.4,
+    fontSize: 10,
+    lineHeight: 1.5,
     color: '#334155',
-    marginBottom: 12,
+    marginBottom: 16,
   },
   kpiContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 12,
+    marginBottom: 18,
   },
   kpiBox: {
     width: '23%',
     backgroundColor: '#f8fafc',
-    padding: 7,
+    padding: 8,
     borderRadius: 4,
     textAlign: 'center',
     borderWidth: 1,
     borderColor: '#e2e8f0',
   },
   kpiValue: {
-    fontSize: 13.5,
+    fontSize: 15,
     fontWeight: 'bold',
     color: '#059669',
   },
   kpiLabel: {
-    fontSize: 7,
+    fontSize: 7.5,
     color: '#64748b',
     marginTop: 3,
     textTransform: 'uppercase',
   },
   sectionTitle: {
-    fontSize: 10.5,
+    fontSize: 12,
     fontWeight: 'bold',
     color: '#0f172a',
     backgroundColor: '#f1f5f9',
-    padding: 3,
-    marginBottom: 5,
+    padding: 4,
+    marginBottom: 8,
   },
   projectRow: {
-    marginBottom: 4,
+    marginBottom: 8,
   },
   projectHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 2,
+    marginBottom: 3,
   },
   projectName: {
-    fontSize: 9,
+    fontSize: 10,
     fontWeight: 'bold',
     color: '#1e293b',
   },
   projectMeta: {
-    fontSize: 8,
+    fontSize: 9,
     color: '#059669',
     fontWeight: 'bold',
   },
   projectDesc: {
-    fontSize: 8,
+    fontSize: 9,
     color: '#475569',
-    lineHeight: 1.35,
+    lineHeight: 1.4,
   },
   expRow: {
-    marginBottom: 4,
+    marginBottom: 7,
   },
   expHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
   expTitle: {
-    fontSize: 9,
+    fontSize: 10,
     fontWeight: 'bold',
     color: '#1e293b',
   },
   expDate: {
-    fontSize: 8,
+    fontSize: 9,
     color: '#64748b',
   },
   expDesc: {
-    fontSize: 8,
+    fontSize: 9,
     color: '#475569',
     marginTop: 2,
   },
   footer: {
     position: 'absolute',
-    bottom: 15,
+    bottom: 20,
     left: 40,
     right: 40,
     textAlign: 'center',
     borderTopWidth: 1,
     borderTopColor: '#e2e8f0',
-    paddingTop: 6,
+    paddingTop: 8,
   },
   footerText: {
-    fontSize: 7,
+    fontSize: 8,
     color: '#94a3b8',
   }
 });
@@ -231,7 +231,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
         </View>
 
         {/* EXPERIENCE */}
-        <Text style={[styles.sectionTitle, { marginTop: 6 }]}>{dict.Experience.title}</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 12 }]}>{dict.Experience.title}</Text>
         
         <View style={styles.expRow}>
           <View style={styles.expHeader}>
@@ -258,7 +258,7 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
         </View>
 
         {/* EDUCATION & ACADEMIC KNOWLEDGE */}
-        <Text style={[styles.sectionTitle, { marginTop: 6 }]}>{dict.Education.title}</Text>
+        <Text style={[styles.sectionTitle, { marginTop: 12 }]}>{dict.Education.title}</Text>
 
         <View style={styles.expRow}>
           <View style={styles.expHeader}>
