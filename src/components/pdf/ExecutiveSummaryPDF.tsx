@@ -19,6 +19,8 @@ const styles = StyleSheet.create({
   },
   headerLeft: {
     flexDirection: 'column',
+    width: '70%',
+    paddingRight: 10,
   },
   name: {
     fontSize: 24,
@@ -34,6 +36,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'flex-end',
     justifyContent: 'center',
+    width: '30%',
   },
   contactText: {
     fontSize: 9,
