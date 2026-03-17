@@ -139,6 +139,9 @@
       "desc": "Máster en Gestión y Desarrollo de Energías Renovables. Máster en Proyectos de Hidrógeno Verde (2024-2025). Máster en IA en la Programación (2025). Máster en Generación de Energía Eléctrica Renovable."
     }
   },
+  "Footer": {
+    "visits": "visitas"
+  },
   "Contact": {
     "title": "Contacto",
     "name": "Nombre",

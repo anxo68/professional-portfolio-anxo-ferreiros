@@ -139,6 +139,9 @@
       "desc": "Master's in Renewable Energy Management and Development. Master's in Green Hydrogen Projects (2024-2025). Master's in AI in Programming (2025). Master's in Renewable Electrical Energy Generation."
     }
   },
+  "Footer": {
+    "visits": "views"
+  },
   "Contact": {
     "title": "Contact",
     "name": "Name",
