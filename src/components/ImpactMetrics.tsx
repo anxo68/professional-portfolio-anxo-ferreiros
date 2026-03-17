@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import AnimatedCounter from './AnimatedCounter';
 
 export default function ImpactMetrics() {
   const t = useTranslations('Impact');
@@ -17,7 +18,7 @@ export default function ImpactMetrics() {
           {metrics.map((metric, index) => (
             <div key={index} className="flex flex-col items-center justify-center p-4">
               <span className="text-4xl md:text-5xl font-extrabold text-white mb-2 drop-shadow-md">
-                {metric.value}
+                <AnimatedCounter value={metric.value} />
               </span>
               <span className="text-sm md:text-base font-semibold text-emerald-400 uppercase tracking-widest">
                 {metric.label}
