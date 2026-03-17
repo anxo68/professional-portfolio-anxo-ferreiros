@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="container mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-1 gap-12 text-center max-w-5xl">
 
         {/* LinkedIn Cover Image as a subtle card backplate or accent */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-screen max-w-5xl h-64 md:h-80 -mt-24 md:-mt-12 rounded-b-[3rem] opacity-50 pointer-events-none overflow-hidden mask-image-gradient">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-screen max-w-5xl h-64 md:h-80 -mt-24 md:-mt-12 rounded-b-[3rem] opacity-80 pointer-events-none overflow-hidden mask-image-gradient">
           <img 
             src="/linkedin-cover.jpg?v=2" 
             alt="LinkedIn Cover"
