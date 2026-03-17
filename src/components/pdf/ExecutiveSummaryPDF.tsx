@@ -160,7 +160,6 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
           </View>
           <View style={styles.headerRight}>
             <Text style={styles.contactText}>anxo.x.ferreiros@gmail.com</Text>
-            <Text style={styles.contactText}>+34 600 000 000</Text>
             <Link src="https://linkedin.com/in/anxoferreiros"><Text style={[styles.contactText, styles.link]}>linkedin.com/in/anxoferreiros</Text></Link>
           </View>
         </View>
@@ -250,6 +249,30 @@ export const ExecutiveSummaryPDF = ({ dict }: ExecutiveSummaryPDFProps) => {
             <Text style={styles.expDate}>{dict.Experience.exp3.date}</Text>
           </View>
           <Text style={styles.expDesc}>{dict.Experience.exp3.description}</Text>
+        </View>
+
+        {/* EDUCATION & ACADEMIC KNOWLEDGE */}
+        <Text style={[styles.sectionTitle, { marginTop: 10 }]}>{dict.Education.title}</Text>
+
+        <View style={styles.expRow}>
+          <View style={styles.expHeader}>
+            <Text style={styles.expTitle}>{dict.Education.eng.title}</Text>
+          </View>
+          <Text style={styles.expDesc}>{dict.Education.eng.desc}</Text>
+        </View>
+
+        <View style={styles.expRow}>
+          <View style={styles.expHeader}>
+            <Text style={styles.expTitle}>{dict.Education.management.title}</Text>
+          </View>
+          <Text style={styles.expDesc}>{dict.Education.management.desc}</Text>
+        </View>
+
+        <View style={styles.expRow}>
+          <View style={styles.expHeader}>
+            <Text style={styles.expTitle}>{dict.Education.energy.title}</Text>
+          </View>
+          <Text style={styles.expDesc}>{dict.Education.energy.desc}</Text>
         </View>
 
         {/* FOOTER */}
