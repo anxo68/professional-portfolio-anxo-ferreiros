@@ -1,0 +1,18 @@
+ES:
+P1: 408 MWp | Dirección "Full EPC" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad.
+P2: 250 MW (274 MW capacidad) | Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón.
+P3: 270 MWp | Ejecución "Full EPC" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta.
+P6: 125 MWp | Liderazgo en la fase de viabilidad técnica (Línea Base), constructibilidad (análisis de riesgos y mitigaciones), presupuesto y cronograma EPC para toma de decisión de inversión y estructuración de pliegos de licitación.
+
+EN:
+P1: 408 MWp | Full EPC direction, managing civil and electrical construction (3-circuit Step-up Substation and 5km evacuation line) and assembly under the highest quality standards.
+P2: 250 MW (274 MW capacity) | Led the construction of wind generation infrastructure (83 WTGs), including nearly 100 km of access roads, substation, and concrete voussoir tower foundations.
+P3: 270 MWp | Full EPC execution including trackers, step-up substation, switching substation, and mixed evacuation line.
+P6: 125 MWp | Leadership in the technical feasibility phase (Baseline), constructability (risk analysis and mitigations), EPC budget and schedule for investment decision making and structuring of bidding documents.
+
+GL:
+P1: 408 MWp | Dirección "Full EPC" xestionando a construción civil, eléctrica (SE Elevadora de 3 circuítos e liña de evacuación de 5km) e o montaxe baixo altísimos estándares de calidade.
+P2: 250 MW (274 MW capacidade) | Liderado na construción de infraestrutura de xeración eólica (83 WTGs), incluíndo a escavación de case 100 km de viais de acceso, subestación e cimentacións de torres de doelas de formigón.
+P3: 270 MWp | Execución "Full EPC" incluíndo seguidor, subestación elevadora, subestación de manobras e liña de evacuación mixta.
+P6: 125 MWp | Liderado na fase de viabilidade técnica (Liña Base), construtibilidade (análise de riscos e mitigacións), orzamento e cronograma EPC para toma de decisión de investimento e estruturación de pregos de licitación.
+

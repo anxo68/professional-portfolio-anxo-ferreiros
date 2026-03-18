@@ -88,7 +88,13 @@
       "scope": "Dirección Full EPC (Civil, Eléctrica, Montaje)",
       "achievements": "Lideró la SE Elevadora de 3 circuitos y línea de 5km bajo estrictos estándares de calidad.",
       "globalMotive": "Valida la capacidad de entregar infraestructuras masivas renovables europeas.",
-      "images": ["Sabinar 01.jpg", "Sabinar Aerea.jpg", "Planta Sabinar.jpeg"]
+      "images": [
+        "Sabinar 01.jpg",
+        "Sabinar Aerea.jpg",
+        "Planta Sabinar.jpeg"
+      ],
+      "magnitude": "408 MWp",
+      "description": "Dirección \"Full EPC\" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad."
     },
     "project2": {
       "name": "Parque Eólico \"Dolores\"",
@@ -101,7 +107,14 @@
       "scope": "Construcción completa de 83 WTGs incluyendo accesos y cimentaciones.",
       "achievements": "Excavación de 100 km de viales y gestión de cimentaciones de hormigón complejas (huecas) para torres de dovelas de hormigón postensadas.",
       "globalMotive": "Demuestra capacidad de ejecución en entornos geográficos complejos de LATAM.",
-      "images": ["Viales Dolores.JPG", "Grua Aerogenerador Dolores.JPG", "Cimentacion dolores 01.JPG", "Cimentación Dolores.JPG"]
+      "images": [
+        "Viales Dolores.JPG",
+        "Grua Aerogenerador Dolores.JPG",
+        "Cimentacion dolores 01.JPG",
+        "Cimentación Dolores.JPG"
+      ],
+      "magnitude": "250 MW (274 MW capacidad)",
+      "description": "Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón."
     },
     "project3": {
       "name": "Parque Solar Fotovoltaico \"Los Cuervos\"",
@@ -114,7 +127,14 @@
       "scope": "Ejecución Full EPC incluyendo seguidores y subestaciones.",
       "achievements": "Entrega en plazo de la SE Elevadora, SE de maniobra y línea de evacuación mixta.",
       "globalMotive": "Demuestra la gestión de grandes activos solares integrados para desarrolladores internacionales.",
-      "images": ["Planta Cuervos.JPG", "SET Cuervos 01.jpeg", "SET Planta Cuervos.JPG", "Conexionados Cuervos.JPG"]
+      "images": [
+        "Planta Cuervos.JPG",
+        "SET Cuervos 01.jpeg",
+        "SET Planta Cuervos.JPG",
+        "Conexionados Cuervos.JPG"
+      ],
+      "magnitude": "270 MWp",
+      "description": "Ejecución \"Full EPC\" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta."
     },
     "project4": {
       "name": "Ciclo Combinado \"Cerro Dragón\"",
@@ -153,7 +173,19 @@
       "scope": "Viabilidad técnica y estructuración EPC.",
       "achievements": "Establecimiento de líneas base de constructibilidad, mitigación de riesgos y énfasis en optimización de las fases del proyecto para aceleración de tiempos.",
       "globalMotive": "Demuestra experiencia en fase pre-FID y licitaciones para grandes promotores.",
-      "images": ["Bosques 04.jpg", "Bosques 03.jpg", "Bosques 02.jpg", "Bosques 01.jpg", "SET Bosques 03.jpeg", "SET Bosques 02.JPG", "SET Bosques 01.JPG", "SET Bosques.JPG", "Torre Bosques.jpeg"]
+      "images": [
+        "Bosques 04.jpg",
+        "Bosques 03.jpg",
+        "Bosques 02.jpg",
+        "Bosques 01.jpg",
+        "SET Bosques 03.jpeg",
+        "SET Bosques 02.JPG",
+        "SET Bosques 01.JPG",
+        "SET Bosques.JPG",
+        "Torre Bosques.jpeg"
+      ],
+      "magnitude": "125 MWp",
+      "description": "Liderazgo en la fase de viabilidad técnica (Línea Base), constructibilidad (análisis de riesgos y mitigaciones), presupuesto y cronograma EPC para toma de decisión de inversión y estructuración de pliegos de licitación."
     },
     "mapTitle": "Huella Global",
     "mapSubtitle": "Presencia internacional y alcance de megaproyectos"

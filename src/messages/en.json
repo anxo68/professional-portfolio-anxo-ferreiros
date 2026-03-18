@@ -88,7 +88,13 @@
       "scope": "Full EPC direction (Civil, Electrical, Assembly)",
       "achievements": "Led 3-circuit Step-up Substation and 5km evacuation line under stringent quality standards.",
       "globalMotive": "Validates capacity to deliver massive European renewable infrastructures.",
-      "images": ["Sabinar 01.jpg", "Sabinar Aerea.jpg", "Planta Sabinar.jpeg"]
+      "images": [
+        "Sabinar 01.jpg",
+        "Sabinar Aerea.jpg",
+        "Planta Sabinar.jpeg"
+      ],
+      "magnitude": "408 MWp",
+      "description": "Full EPC direction, managing civil and electrical construction (3-circuit Step-up Substation and 5km evacuation line) and assembly under the highest quality standards."
     },
     "project2": {
       "name": "\"Dolores\" Wind Farm",
@@ -101,7 +107,14 @@
       "scope": "Full construction of 83 WTGs including access roads and foundations.",
       "achievements": "Excavated 100 km of roads and managed complex hollow concrete foundations for post-tensioned concrete voussoir towers.",
       "globalMotive": "Proves execution capability in complex geographical LATAM environments.",
-      "images": ["Viales Dolores.JPG", "Grua Aerogenerador Dolores.JPG", "Cimentacion dolores 01.JPG", "Cimentación Dolores.JPG"]
+      "images": [
+        "Viales Dolores.JPG",
+        "Grua Aerogenerador Dolores.JPG",
+        "Cimentacion dolores 01.JPG",
+        "Cimentación Dolores.JPG"
+      ],
+      "magnitude": "250 MW (274 MW capacity)",
+      "description": "Led the construction of wind generation infrastructure (83 WTGs), including nearly 100 km of access roads, substation, and concrete voussoir tower foundations."
     },
     "project3": {
       "name": "\"Los Cuervos\" Solar PV Plant",
@@ -114,7 +127,14 @@
       "scope": "Full EPC execution including trackers and substations.",
       "achievements": "Delivered step-up substation, switching substation, and mixed evacuation line on schedule.",
       "globalMotive": "Demonstrates management of integrated large-scale solar assets for international developers.",
-      "images": ["Planta Cuervos.JPG", "SET Cuervos 01.jpeg", "SET Planta Cuervos.JPG", "Conexionados Cuervos.JPG"]
+      "images": [
+        "Planta Cuervos.JPG",
+        "SET Cuervos 01.jpeg",
+        "SET Planta Cuervos.JPG",
+        "Conexionados Cuervos.JPG"
+      ],
+      "magnitude": "270 MWp",
+      "description": "Full EPC execution including trackers, step-up substation, switching substation, and mixed evacuation line."
     },
     "project4": {
       "name": "\"Cerro Dragón\" Combined Cycle",
@@ -153,7 +173,19 @@
       "scope": "Technical feasibility & EPC structuration.",
       "achievements": "Established constructability baselines, mitigated risks, and emphasized project phase optimization for time acceleration.",
       "globalMotive": "Demonstrates expertise in the pre-FID and tendering phase for major sponsors.",
-      "images": ["Bosques 04.jpg", "Bosques 03.jpg", "Bosques 02.jpg", "Bosques 01.jpg", "SET Bosques 03.jpeg", "SET Bosques 02.JPG", "SET Bosques 01.JPG", "SET Bosques.JPG", "Torre Bosques.jpeg"]
+      "images": [
+        "Bosques 04.jpg",
+        "Bosques 03.jpg",
+        "Bosques 02.jpg",
+        "Bosques 01.jpg",
+        "SET Bosques 03.jpeg",
+        "SET Bosques 02.JPG",
+        "SET Bosques 01.JPG",
+        "SET Bosques.JPG",
+        "Torre Bosques.jpeg"
+      ],
+      "magnitude": "125 MWp",
+      "description": "Leadership in the technical feasibility phase (Baseline), constructability (risk analysis and mitigations), EPC budget and schedule for investment decision making and structuring of bidding documents."
     },
     "mapTitle": "Global Footprint",
     "mapSubtitle": "International presence and megaproject reach"
