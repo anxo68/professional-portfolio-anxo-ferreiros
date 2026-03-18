@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Globe } from 'lucide-react';
 import ProjectMap from './ProjectMap';
 
 export default function Portfolio() {
@@ -31,10 +31,15 @@ export default function Portfolio() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((proj) => {
             const name = t(`${proj.key}.name`);
+            const country = t(`${proj.key}.country`);
             const client = t(`${proj.key}.client`);
-            const magnitude = t(`${proj.key}.magnitude`);
+            const role = t(`${proj.key}.role`);
+            const sector = t(`${proj.key}.sector`);
+            const capacity = t(`${proj.key}.capacity`);
             const budget = t(`${proj.key}.budget`);
-            const description = t(`${proj.key}.description`);
+            const scope = t(`${proj.key}.scope`);
+            const achievements = t(`${proj.key}.achievements`);
+            const globalMotive = t(`${proj.key}.globalMotive`);
             
             // Explicitly handling images array if it exists in the translation JSON
             // We need a fallback since not all might have it, and TS might complain if we aren't careful extracting arrays from next-intl
@@ -57,9 +62,32 @@ export default function Portfolio() {
                 
                 <div className="relative z-10 flex flex-col h-full">
                   <h3 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white mb-2 pr-8">{name}</h3>
-                  <p className="text-emerald-700 dark:text-emerald-400 font-medium mb-6 flex items-center gap-2">
-                    {t('client')} <span className="text-slate-700 dark:text-slate-300">{client}</span>
-                  </p>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-y-4 gap-x-2 mb-6 mt-4">
+                    <div>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">{t('labels.client')}</p>
+                      <p className="font-semibold text-slate-900 dark:text-white text-sm">{client}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">{t('labels.country')}</p>
+                      <p className="font-semibold text-slate-900 dark:text-white text-sm">{country}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">{t('labels.role')}</p>
+                      <p className="font-semibold text-slate-900 dark:text-white text-sm">{role}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">{t('labels.sector')}</p>
+                      <p className="font-semibold text-slate-900 dark:text-white text-sm">{sector}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">{t('labels.capacity')}</p>
+                      <p className="font-semibold text-slate-900 dark:text-white text-sm">{capacity}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs text-slate-500 dark:text-slate-400 uppercase tracking-wider font-semibold">{t('labels.budget')}</p>
+                      <p className="font-semibold text-slate-900 dark:text-white text-sm">{budget}</p>
+                    </div>
+                  </div>
                   
                   {/* Image Gallery Row if images exist */}
                   {images && images.length > 0 && (
@@ -77,18 +105,24 @@ export default function Portfolio() {
                     </div>
                   )}
 
-                  <div className="flex flex-wrap gap-3 mb-6">
-                    <span className="px-3 py-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300">
-                      {magnitude}
-                    </span>
-                    <span className="px-3 py-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-full text-sm font-semibold text-slate-700 dark:text-slate-300">
-                      {budget}
-                    </span>
+                  <div className="space-y-4 mb-6 relative z-20">
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-1">{t('labels.scope')}</h4>
+                      <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed">{scope}</p>
+                    </div>
+                    <div>
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-white mb-1">{t('labels.achievements')}</h4>
+                      <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed">{achievements}</p>
+                    </div>
                   </div>
                   
-                  <p className="text-slate-600 dark:text-slate-400 leading-relaxed mb-6">
-                    {description}
-                  </p>
+                  <div className="bg-blue-50/50 dark:bg-blue-900/10 p-4 rounded-xl border border-blue-100/50 dark:border-blue-800/30 mb-6 relative z-20 mt-auto">
+                    <h4 className="flex items-center gap-2 text-blue-700 dark:text-blue-400 font-bold mb-2 text-sm">
+                      <Globe className="w-4 h-4" />
+                      {t('labels.globalMotive')}
+                    </h4>
+                    <p className="text-slate-700 dark:text-slate-300 text-sm leading-relaxed italic border-l-2 border-blue-300 dark:border-blue-600 pl-3">"{globalMotive}"</p>
+                  </div>
                   
                   <div className="flex justify-end mt-auto pt-4 border-t border-slate-200/60 dark:border-slate-700/60">
                     <div className="w-10 h-10 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white text-slate-600 dark:text-slate-300 transition-colors">

@@ -1,107 +1,159 @@
 {
   "Hero": {
     "pretitle": "Anxo Xosé Ferreirós Otero",
-    "title": "Experto Senior en Dirección de Proyectos EPC para Transición Energética y Grandes Infraestructuras.",
-    "subtitle": "Transformando la visión de ingeniería en realidades operativas. Más de 30 años liderando la ejecución integral de megaproyectos de Energías Renovables (Eólica, Fotovoltaica) e Infraestructuras a nivel internacional, garantizando plazos, presupuestos y máxima rentabilidad.",
+    "title": "Project Manager EPC Senior para Energía Renovable y Grandes Infraestructuras",
+    "subtitle": "Más de 30 años entregando proyectos complejos en Europa y Latinoamérica, liderando la ejecución integral EPC, control de proyectos, preparación para la puesta en marcha y equipos multidisciplinares en entornos de alta exigencia.",
+    "supportingText": "Disponible para roles internacionales de liderazgo de proyectos, dirección EPC y asesoramiento en los sectores de energía e infraestructura.",
     "ctaExplore": "Explorar Proyectos",
     "ctaContact": "Contactar"
+  },
+  "SEO": {
+    "title": "Anxo Xosé Ferreirós Otero | Senior EPC Project Manager (Renovables e Infraestructuras)",
+    "description": "Senior EPC Project Manager con más de 30 años de experiencia internacional entregando megaproyectos en Energías Renovables (Solar FV, Eólica), Energía Convencional y Grandes Infraestructuras en Europa y LATAM.",
+    "keywords": "Project Manager EPC, Energías Renovables, Solar Fotovoltaica, Parque Eólico, Control de Proyectos, Site Manager, EPC Internacional, Hidrógeno Verde, EVM, Primavera P6, Gestión de Contratos, Liderazgo Ejecutivo"
+  },
+  "KeyFacts": {
+    "experience": "Más de 30 años de experiencia",
+    "role": "Project Manager EPC",
+    "sectors": "Energía Renovable e Infraestructura",
+    "regions": "Europa y LATAM",
+    "scale": "Entrega de proyectos a gran escala"
   },
   "About": {
     "title": "Sobre Mí",
     "paragraph1": "Como Project Manager y Site Manager Senior, mi carrera se ha construido sobre la capacidad de orquestar la complejidad. Durante más de tres décadas, he liderado equipos multidisciplinares de hasta 1.000 personas y gestionado presupuestos superiores a los 240 millones de euros en Europa y Latinoamérica. Mi enfoque abarca el ciclo vital completo del proyecto (Full EPC): desde el diseño y las compras, hasta la construcción, la puesta en marcha y la entrega.",
-    "paragraph2": "En los últimos 11 años, he focalizado mi expertise en el sector de las Energías Renovables y la Transición Energética, complementando mi visión técnica con formación avanzada en proyectos de Hidrógeno Verde e Inteligencia Artificial aplicada a la ingeniería y la productividad empresarial."
+    "paragraph2": "En los últimos 11 años, he focalizado mi expertise en el sector de las Energías Renovables y la Transición Energética, complementando mi visión técnica con formación avanzada en proyectos de Hidrógeno Verde e Inteligencia Artificial aplicada a la ingeniería y la productividad empresarial.",
+    "quickProfile": {
+      "title": "Perfil Rápido",
+      "roleLabel": "Rol",
+      "roleValue": "Senior EPC Project Manager",
+      "sectorsLabel": "Sectores",
+      "sectorsValue": "Energía e Infraestructura",
+      "expLabel": "Experiencia",
+      "expValue": "Más de 30 años",
+      "regionsLabel": "Regiones",
+      "regionsValue": "Europa y LATAM",
+      "availLabel": "Disponibilidad",
+      "availValue": "Abierto a roles internacionales"
+    }
+  },
+  "GlobalMobility": {
+    "title": "Disponibilidad Global",
+    "subtitle": "Abierto a asignaciones internacionales y entornos de alta complejidad en cualquier parte del mundo.",
+    "availability": "Asignaciones Internacionales",
+    "availabilityDesc": "Abierto a asignaciones internacionales y roles globales exigentes.",
+    "experience": "Experiencia Transfronteriza",
+    "experienceDesc": "Amplia experiencia entregando proyectos en Europa y América Latina.",
+    "relocation": "Reubicación y Rotación",
+    "relocationDesc": "Disposición para reubicación o trabajo en esquemas de rotación según se requiera.",
+    "multicultural": "Entornos Multiculturales",
+    "multiculturalDesc": "Historial comprobado de éxito trabajando en equipos diversos y multiculturales."
   },
   "Skills": {
-    "title": "Liderazgo y Competencias Clave",
-    "epc": "Gestión EPC",
-    "epcDesc": "Dirección integral de contratos, subcontrataciones y compras estratégicas.",
-    "pmo": "Control de Proyecto (PMO)",
-    "pmoDesc": "Primavera P6, Gestión del Valor Ganado (EVM), Simulaciones de Montecarlo.",
-    "risk": "Gestión de Riesgos y Contratos",
-    "riskDesc": "Control de claims (reclamaciones), negociación y resolución de conflictos.",
-    "energy": "Transición Energética",
-    "energyDesc": "Plantas Solares Fotovoltaicas, Parques Eólicos, Hidrógeno Verde.",
-    "operations": "Operaciones",
-    "operationsDesc": "Liderazgo de equipos masivos y gestión QHSE en entornos multinacionales.",
-    "stakeholders": "Gestión de Comunicaciones y Stakeholders",
-    "stakeholdersDesc": "Negociación de alto nivel con actores clave, autoridades locales y comunidades para asegurar la viabilidad social y técnica de los megaproyectos."
+    "title": "Liderazgo y Enfoque de Entrega",
+    "epc": "Liderazgo de Ciclo Completo EPC",
+    "epcDesc": "Dirección integral desde ingeniería y compras hasta puesta en marcha y entrega final.",
+    "pmo": "Control Avanzado de Proyectos",
+    "pmoDesc": "Recuperación de cronogramas, auditorías EVM y control financiero estricto en grandes CAPEX.",
+    "risk": "Estrategia Contractual y Claims",
+    "riskDesc": "Administración rigurosa de contratos, mitigación de riesgos y resolución de disputas.",
+    "energy": "Toma de Decisiones bajo Presión",
+    "energyDesc": "Agilidad comprobada para resolver cuellos de botella técnicos y logísticos complejos.",
+    "operations": "Dirección de Equipos de Alto Rendimiento",
+    "operationsDesc": "Orquestación masiva de fuerzas de trabajo multidisciplinares e internacionales (hasta +1.000 trabajadores).",
+    "stakeholders": "Gestión Ejecutiva de Stakeholders",
+    "stakeholdersDesc": "Negociación y alineación estratégica con comités directivos, autoridades y comunidades locales."
   },
   "Portfolio": {
     "title": "Proyectos Destacados",
-    "client": "Cliente:",
-    "magnitude": "Magnitud:",
-    "budget": "Presupuesto:",
+    "labels": {
+      "client": "Cliente:",
+      "country": "País:",
+      "role": "Rol:",
+      "sector": "Sector:",
+      "capacity": "Capacidad:",
+      "budget": "Presupuesto:",
+      "scope": "Alcance:",
+      "achievements": "Logros Clave:",
+      "globalMotive": "Relevancia Global:"
+    },
     "project1": {
       "name": "Parque Solar Fotovoltaico \"Sabinar Hive\"",
-      "client": "ERANOVUM (España)",
-      "magnitude": "408 MWp",
+      "country": "España",
+      "client": "ERANOVUM",
+      "role": "Project Manager EPC",
+      "sector": "Energía Renovable (FV)",
+      "capacity": "408 MWp",
       "budget": "240 M€",
-      "description": "Dirección \"Full EPC\" gestionando la construcción civil, eléctrica (SE Elevadora de 3 circuitos y línea de evacuación de 5km) y el montaje bajo altísimos estándares de calidad.",
-      "images": [
-        "Sabinar 01.jpg",
-        "Sabinar Aerea.jpg",
-        "Planta Sabinar.jpeg"
-      ]
+      "scope": "Dirección Full EPC (Civil, Eléctrica, Montaje)",
+      "achievements": "Lideró la SE Elevadora de 3 circuitos y línea de 5km bajo estrictos estándares de calidad.",
+      "globalMotive": "Valida la capacidad de entregar infraestructuras masivas renovables europeas.",
+      "images": ["Sabinar 01.jpg", "Sabinar Aerea.jpg", "Planta Sabinar.jpeg"]
     },
     "project2": {
       "name": "Parque Eólico \"Dolores\"",
-      "client": "Enel Green Power (México)",
-      "magnitude": "250 MW (274 MW capacidad)",
+      "country": "México",
+      "client": "Enel Green Power",
+      "role": "Site Manager",
+      "sector": "Energía Renovable (Eólica)",
+      "capacity": "250 MW (274 MW max)",
       "budget": "225 M USD",
-      "description": "Liderazgo en la construcción de infraestructura de generación eólica (83 WTGs), incluyendo la excavación de casi 100 km de viales de acceso, subestación y cimentaciones de torres de dovelas de hormigón.",
-      "images": [
-        "Viales Dolores.JPG",
-        "Grua Aerogenerador Dolores.JPG",
-        "Cimentacion dolores 01.JPG",
-        "Cimentación Dolores.JPG"
-      ]
+      "scope": "Construcción completa de 83 WTGs incluyendo accesos y cimentaciones.",
+      "achievements": "Excavación de 100 km de viales y gestión de cimentaciones complejas de dovelas de hormigón.",
+      "globalMotive": "Demuestra capacidad de ejecución en entornos geográficos complejos de LATAM.",
+      "images": ["Viales Dolores.JPG", "Grua Aerogenerador Dolores.JPG", "Cimentacion dolores 01.JPG", "Cimentación Dolores.JPG"]
     },
     "project3": {
       "name": "Parque Solar Fotovoltaico \"Los Cuervos\"",
-      "client": "BayWa-r.e. (México)",
-      "magnitude": "270 MWp",
+      "country": "México",
+      "client": "BayWa-r.e.",
+      "role": "Project Manager EPC",
+      "sector": "Energía Renovable (FV)",
+      "capacity": "270 MWp",
       "budget": "165 M USD",
-      "description": "Ejecución \"Full EPC\" incluyendo seguidor, subestación elevadora, subestación de maniobras y línea de evacuación mixta.",
-      "images": [
-        "Planta Cuervos.JPG",
-        "SET Cuervos 01.jpeg",
-        "SET Planta Cuervos.JPG",
-        "Conexionados Cuervos.JPG"
-      ]
+      "scope": "Ejecución Full EPC incluyendo seguidores y subestaciones.",
+      "achievements": "Entrega en plazo de la SE Elevadora, SE de maniobra y línea de evacuación mixta.",
+      "globalMotive": "Demuestra la gestión de grandes activos solares integrados para desarrolladores internacionales.",
+      "images": ["Planta Cuervos.JPG", "SET Cuervos 01.jpeg", "SET Planta Cuervos.JPG", "Conexionados Cuervos.JPG"]
     },
     "project4": {
-      "name": "Central de Ciclo Combinado \"Cerro Dragón\"",
-      "client": "PAE – Pan American Energy (Argentina)",
-      "magnitude": "80 MW",
+      "name": "Ciclo Combinado \"Cerro Dragón\"",
+      "country": "Argentina",
+      "client": "Pan American Energy",
+      "role": "Project Control Manager",
+      "sector": "Energía Convencional",
+      "capacity": "80 MW",
       "budget": "200 M USD",
-      "description": "Proyecto de Cierre de Ciclo abierto en Ciclo combinado (Sistema 2-1 de turbinas de gas - turbina de vapor). Gestión del Control de Proyectos (Costes, cash-flow, reestimaciones, planificación Primavera P6, certificaciones y claims).",
+      "scope": "Conversión de Ciclo Abierto a Ciclo Combinado.",
+      "achievements": "Recuperación de la ruta crítica del cronograma mediante Primavera P6 y gestión rigurosa de claims.",
+      "globalMotive": "Destaca el control avanzado de proyectos y recuperación bajo alta presión del inversor.",
       "images": []
     },
     "project5": {
-      "name": "Ampliación Planta Potabilizadora \"General Belgrano\"",
-      "client": "AySA – Aguas y Saneamientos Argentinos (Argentina)",
-      "magnitude": "Ampliación a 2.900.000 m³",
+      "name": "Planta Potabilizadora \"General Belgrano\"",
+      "country": "Argentina",
+      "client": "AySA",
+      "role": "Contract Manager",
+      "sector": "Infraestructura Hidráulica",
+      "capacity": "2.900.000 m³",
       "budget": "150 M USD",
-      "description": "Gerente de Contrato. Liderazgo en el control de costes (EVM), planificación temporal de actividades complejas, cálculo de cash-flow y gestión de órdenes de cambio garantizando el desempeño del cronograma.",
+      "scope": "Expansión mayor de infraestructura.",
+      "achievements": "Aseguramiento de los objetivos financieros mediante EVM y resolución de órdenes de cambio.",
+      "globalMotive": "Prueba la administración de contratos de alto nivel en consorcios internacionales público-privados.",
       "images": []
     },
     "project6": {
-      "name": "Parque Fotovoltaico Bosques Solares de Bolívar",
-      "client": "Isagen (Colombia)",
-      "magnitude": "125 MWp",
+      "name": "\"Bosques Solares de Bolívar\"",
+      "country": "Colombia",
+      "client": "Isagen",
+      "role": "Technical Lead",
+      "sector": "Energía Renovable (FV)",
+      "capacity": "125 MWp",
       "budget": "100 M USD",
-      "description": "Liderazgo en la fase de viabilidad técnica (Línea Base), constructibilidad (análisis de riesgos y mitigaciones), presupuesto y cronograma EPC para toma de decisión de inversión y estructuración de pliegos de licitación.",
-      "images": [
-        "Bosques 04.jpg",
-        "Bosques 03.jpg",
-        "Bosques 02.jpg",
-        "Bosques 01.jpg",
-        "SET Bosques 03.jpeg",
-        "SET Bosques 02.JPG",
-        "SET Bosques 01.JPG",
-        "SET Bosques.JPG",
-        "Torre Bosques.jpeg"
-      ]
+      "scope": "Viabilidad técnica y estructuración EPC.",
+      "achievements": "Establecimiento de líneas base de constructibilidad, mitigación de riesgos y estructuración de pliegos.",
+      "globalMotive": "Demuestra experiencia en fase pre-FID y licitaciones para grandes promotores.",
+      "images": ["Bosques 04.jpg", "Bosques 03.jpg", "Bosques 02.jpg", "Bosques 01.jpg", "SET Bosques 03.jpeg", "SET Bosques 02.JPG", "SET Bosques 01.JPG", "SET Bosques.JPG", "Torre Bosques.jpeg"]
     },
     "mapTitle": "Huella Global",
     "mapSubtitle": "Presencia internacional y alcance de megaproyectos"
@@ -176,20 +228,20 @@
     "title": "Empresas de primer nivel que confían en mi gestión"
   },
   "Consulting": {
-    "title": "Áreas de Consultoría Estratégica",
-    "subtitle": "Asesoramiento de alto nivel para asegurar el éxito en la fase de inversión, licitación y construcción de megaproyectos.",
-    "s1Title": "Asesoría en Licitaciones EPC",
-    "s1Desc": "Due Diligence, análisis de constructibilidad, viabilidad técnica y estimación de CAPEX antes de la decisión de inversión (FID).",
-    "s2Title": "Gestión de Reclamaciones (Claims)",
-    "s2Desc": "Peritaje técnico-contractual, negociación y resolución analítica de disputas entre promotor y contratista principal.",
-    "s3Title": "Auditorías de Cronograma (EVM/P6)",
-    "s3Desc": "Evaluación independiente del avance físico real, detección temprana de desviaciones temporales y control de Cash-flow.",
-    "s4Title": "Análisis de Costes",
-    "s4Desc": "Cálculo de la Línea Base (LB) de Costes y validación. Seguimiento y monitorización, si se requiere según los estándares reconocidos (EVM (PMI)).",
-    "s5Title": "Gestión de Riesgos",
-    "s5Desc": "Identificación, mitigación y monitorización de contingencias técnicas y contractuales en todas las fases del ciclo de vida EPC.",
-    "s6Title": "Technical Advisor",
-    "s6Desc": "Proporcionar consejos expertos, resolver problemas complejos y guiar la toma de decisiones técnicas."
+    "title": "Advisory Services",
+    "subtitle": "Asesoramiento de alto nivel para asegurar el éxito en la fase de inversión, licitación y ejecución de megaproyectos.",
+    "s1Title": "EPC Tender Advisory",
+    "s1Desc": "Due Diligence, análisis de constructibilidad, viabilidad técnica y estimación de CAPEX previo a Final Investment Decision (FID).",
+    "s2Title": "Project Execution Risk Review",
+    "s2Desc": "Expertise técnico-contractual para mitigar riesgos de ejecución antes de que impacten la ruta crítica.",
+    "s3Title": "Project Controls & Planning Diagnostics",
+    "s3Desc": "Evaluación independiente del cronograma, auditorías EVM y control de Cash-flow para detectar desviaciones tempranas.",
+    "s4Title": "Cost Baseline Analysis",
+    "s4Desc": "Cálculo y validación de Líneas Base de Coste. Seguimiento intensivo según estándares reconocidos (PMI).",
+    "s5Title": "Claims & Contract Strategy Support",
+    "s5Desc": "Negociación analítica y resolución de disputas entre promotor y contratista.",
+    "s6Title": "Technical Advisory",
+    "s6Desc": "Resolución experta de problemas y guía en la toma de decisiones técnicas complejas a nivel directivo."
   },
   "AeroBot": {
     "greeting": "¡Hola! Soy Turbi 🍃, tu asistente virtual. ¿En qué te puedo ayudar hoy con el perfil de Anxo?",

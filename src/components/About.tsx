@@ -22,6 +22,17 @@ export default function About() {
             <p>
               {t('paragraph2')}
             </p>
+
+            <div className="mt-8 p-6 bg-slate-50 dark:bg-slate-800/80 rounded-2xl border border-slate-200 dark:border-slate-700">
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-4 uppercase tracking-wider text-sm">{t('quickProfile.title')}</h3>
+              <ul className="space-y-3 text-base">
+                <li className="flex items-start"><span className="font-semibold text-emerald-700 dark:text-emerald-400 w-32">{t('quickProfile.roleLabel')}:</span> <span className="flex-1">{t('quickProfile.roleValue')}</span></li>
+                <li className="flex items-start"><span className="font-semibold text-emerald-700 dark:text-emerald-400 w-32">{t('quickProfile.sectorsLabel')}:</span> <span className="flex-1">{t('quickProfile.sectorsValue')}</span></li>
+                <li className="flex items-start"><span className="font-semibold text-emerald-700 dark:text-emerald-400 w-32">{t('quickProfile.expLabel')}:</span> <span className="flex-1">{t('quickProfile.expValue')}</span></li>
+                <li className="flex items-start"><span className="font-semibold text-emerald-700 dark:text-emerald-400 w-32">{t('quickProfile.regionsLabel')}:</span> <span className="flex-1">{t('quickProfile.regionsValue')}</span></li>
+                <li className="flex items-start"><span className="font-semibold text-emerald-700 dark:text-emerald-400 w-32">{t('quickProfile.availLabel')}:</span> <span className="flex-1">{t('quickProfile.availValue')}</span></li>
+              </ul>
+            </div>
           </div>
           
         </div>

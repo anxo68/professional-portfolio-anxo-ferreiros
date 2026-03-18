@@ -12,8 +12,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params;
   const t = await getTranslations({ locale });
   return {
-    title: `Anxo Xosé Ferreirós Otero - ${t('Hero.title')}`,
-    description: t('Hero.subtitle'),
+    title: t('SEO.title'),
+    description: t('SEO.description'),
+    keywords: t('SEO.keywords'),
+    openGraph: {
+      type: 'website',
+      locale: locale,
+      url: 'https://alojamiento-anxo.vercel.app',
+      title: t('SEO.title'),
+      description: t('SEO.description'),
+      siteName: 'Anxo Xosé Ferreirós Otero Portfolio'
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: t('SEO.title'),
+      description: t('SEO.description'),
+    },
     verification: {
       google: [
         'QvlYUOke3wmY_RM5qusoBt4coiz8EnKGaOTiyUbTkKw', // .vercel.app
