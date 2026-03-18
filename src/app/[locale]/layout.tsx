@@ -15,7 +15,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     title: `Anxo Xosé Ferreirós Otero - ${t('Hero.title')}`,
     description: t('Hero.subtitle'),
     verification: {
-      google: 'QvlYUOke3wmY_RM5qusoBt4coiz8EnKGaOTiyUbTkKw',
+      google: [
+        'QvlYUOke3wmY_RM5qusoBt4coiz8EnKGaOTiyUbTkKw', // .vercel.app
+        'Bi-CGP1LxSlgZneSEuQc-Iprtbxc1fxA5FlSFwprzsk'  // .com
+      ],
     },
   };
 }
