@@ -168,7 +168,9 @@
     "budget": "+$1.000M",
     "budgetLabel": "Orzamento Executado",
     "team": "+1.100",
-    "teamLabel": "Operarios-Pico Promedio por Proxecto"
+    "teamLabel": "Operarios-Pico Promedio por Proxecto",
+    "co2": "+1.5M",
+    "co2Label": "Ton. CO₂/ano evitadas"
   },
   "Clients": {
     "title": "Empresas de primeiro nivel que confían na miña xestión"

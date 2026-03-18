@@ -168,7 +168,9 @@
     "budget": "+$1Bn",
     "budgetLabel": "Executed Budget",
     "team": "+1.100",
-    "teamLabel": "Peak Workers per Project on Average"
+    "teamLabel": "Peak Workers per Project on Average",
+    "co2": "+1.5M",
+    "co2Label": "Tons CO₂/year avoided"
   },
   "Clients": {
     "title": "Top-tier companies trusting my management"
