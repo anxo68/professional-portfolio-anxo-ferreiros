@@ -14,6 +14,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: `Anxo Xosé Ferreirós Otero - ${t('Hero.title')}`,
     description: t('Hero.subtitle'),
+    verification: {
+      google: 'QvlYUOke3wmY_RM5qusoBt4coiz8EnKGaOTiyUbTkKw',
+    },
   };
 }
 
