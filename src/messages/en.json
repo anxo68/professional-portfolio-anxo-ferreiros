@@ -50,19 +50,19 @@
     "multiculturalDesc": "Proven track record of success working in diverse, multicultural teams."
   },
   "Skills": {
-    "title": "Leadership & Delivery Approach",
+    "title": "Delivery & Results Focus",
     "epc": "Full EPC Lifecycle Leadership",
-    "epcDesc": "End-to-end direction from engineering and procurement to commissioning and handover.",
+    "epcDesc": "Turnkey delivery ensuring profitability, quality, and strict deadlines.",
     "pmo": "Advanced Project Controls",
-    "pmoDesc": "Schedule recovery, EVM audits, and strict financial control on large CAPEX projects.",
+    "pmoDesc": "Strict CAPEX control, EVM audits, and fast-track schedule acceleration.",
     "risk": "Contract & Claims Strategy",
-    "riskDesc": "Rigorous contract administration, risk mitigation, and proactive dispute resolution.",
+    "riskDesc": "Contractual shielding and analytical resolution of high-impact claims.",
     "energy": "Decision-Making Under Pressure",
-    "energyDesc": "Proven agility in solving complex technical and logistical bottlenecks in demanding environments.",
+    "energyDesc": "Proven agility in removing complex pre-FID technical bottlenecks.",
     "operations": "High-Performance Team Orchestration",
-    "operationsDesc": "Directing massive multidisciplinary and multicultural workforces (up to +1,000 personnel).",
+    "operationsDesc": "Mobilization and throughput optimization of massive workforces (+1,000 FTEs).",
     "stakeholders": "Executive Stakeholder Management",
-    "stakeholdersDesc": "Strategic negotiation and alignment with boards, local authorities, and communities."
+    "stakeholdersDesc": "Corporate alignment and securing social licenses to operate."
   },
   "Portfolio": {
     "title": "Selected Projects",
@@ -85,8 +85,8 @@
       "sector": "Renewable Energy (Solar PV)",
       "capacity": "408 MWp",
       "budget": "240 M€",
-      "scope": "Full EPC direction (Civil, Electrical, Assembly)",
-      "achievements": "Led 3-circuit Step-up Substation and 5km evacuation line under stringent quality standards.",
+      "scope": "Full EPC Execution: +400 MWp, Civil & Electrical Infrastructure.",
+      "achievements": "✔ Led constructability and assembly phases.\n✔ Delivered 3-circuit Step-up Substation and 5km HV line.\n✔ Secured 240 M€ CAPEX with zero deviations.",
       "globalMotive": "Validates capacity to deliver massive European renewable infrastructures.",
       "images": [
         "Sabinar 01.jpg",
@@ -104,8 +104,8 @@
       "sector": "Renewable Energy (Wind)",
       "capacity": "250 MW (274 MW max)",
       "budget": "225 M USD",
-      "scope": "Full construction of 83 WTGs including access roads and foundations.",
-      "achievements": "Excavated 100 km of roads and managed complex hollow concrete foundations for post-tensioned concrete voussoir towers.",
+      "scope": "Complete construction of 83 WTGs (250 MW).",
+      "achievements": "✔ Excavated 100 km of roads in restrictive terrain.\n✔ Managed complex poured-in-place concrete foundations.\n✔ Achieved strict budgetary control (225 M USD).",
       "globalMotive": "Proves execution capability in complex geographical LATAM environments.",
       "images": [
         "Viales Dolores.JPG",
@@ -124,8 +124,8 @@
       "sector": "Renewable Energy (Solar PV)",
       "capacity": "270 MWp",
       "budget": "165 M USD",
-      "scope": "Full EPC execution including trackers and substations.",
-      "achievements": "Delivered step-up substation, switching substation, and mixed evacuation line on schedule.",
+      "scope": "Full EPC Execution (270 MWp): Trackers and Substations.",
+      "achievements": "✔ Successful energization of Step-up and Switching SEs.\n✔ Optimized cycle times for mixed evacuation lines.\n✔ Led multicultural high-performance teams in Mexico.",
       "globalMotive": "Demonstrates management of integrated large-scale solar assets for international developers.",
       "images": [
         "Planta Cuervos.JPG",
@@ -170,8 +170,8 @@
       "sector": "Renewable Energy (Solar PV)",
       "capacity": "125 MWp",
       "budget": "100 M USD",
-      "scope": "Technical feasibility & EPC structuration.",
-      "achievements": "Established constructability baselines, mitigated risks, and emphasized project phase optimization for time acceleration.",
+      "scope": "Technical Feasibility, Baselines and EPC Structuring.",
+      "achievements": "✔ Optimized EPC schedule accelerating Time-to-Market.\n✔ Early pre-FID risk mitigation for 100 M USD portfolio.",
       "globalMotive": "Demonstrates expertise in the pre-FID and tendering phase for major sponsors.",
       "images": [
         "Bosques 04.jpg",
@@ -236,7 +236,9 @@
     "downloadCv": "Request CV (Deprecated)",
     "downloadSummary": "Download Executive Summary PDF",
     "successMessage": "Message sent successfully. I will get in touch shortly.",
-    "errorMessage": "There was an error sending the message. Please try again later."
+    "errorMessage": "There was an error sending the message. Please try again later.",
+    "subtitle": "Driving Global Visions",
+    "text": "Available for international executive assignments, megaproject leadership and EPC advisory worldwide. Looking for certainty in your next major investment? Let's talk."
   },
   "Nav": {
     "about": "About Me",
@@ -245,16 +247,14 @@
     "contact": "Contact"
   },
   "Impact": {
-    "exp": "+30",
-    "expLabel": "Years of Experience",
     "power": "+1.2 GW",
     "powerLabel": "Renewable Power",
-    "budget": "+$1Bn",
-    "budgetLabel": "Executed Budget",
-    "team": "+1.100",
-    "teamLabel": "Peak Workers per Project on Average",
-    "co2": "+1.5M",
-    "co2Label": "Tons CO₂/year avoided"
+    "projects": "+50",
+    "projectsLabel": "Megaprojects",
+    "budget": "+$1.000M",
+    "budgetLabel": "Executed CAPEX",
+    "countries": "+15",
+    "countriesLabel": "Operating Countries"
   },
   "Clients": {
     "title": "Top-tier companies trusting my management"

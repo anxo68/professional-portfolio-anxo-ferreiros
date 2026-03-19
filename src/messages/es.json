@@ -50,19 +50,19 @@
     "multiculturalDesc": "Historial comprobado de éxito trabajando en equipos diversos y multiculturales."
   },
   "Skills": {
-    "title": "Liderazgo y Enfoque de Entrega",
+    "title": "Enfoque de Entrega y Resultados",
     "epc": "Liderazgo de Ciclo Completo EPC",
-    "epcDesc": "Dirección integral desde ingeniería y compras hasta puesta en marcha y entrega final.",
+    "epcDesc": "Entrega llave en mano asegurando rentabilidad, calidad y plazos.",
     "pmo": "Control Avanzado de Proyectos",
-    "pmoDesc": "Recuperación de cronogramas, auditorías EVM y control financiero estricto en grandes CAPEX.",
+    "pmoDesc": "Control estricto de CAPEX, auditorías EVM y aceleración de cronogramas.",
     "risk": "Estrategia Contractual y Claims",
-    "riskDesc": "Administración rigurosa de contratos, mitigación de riesgos y resolución de disputas.",
+    "riskDesc": "Blindaje contractual y resolución analítica de claims de alto impacto.",
     "energy": "Toma de Decisiones bajo Presión",
-    "energyDesc": "Agilidad comprobada para resolver cuellos de botella técnicos y logísticos complejos.",
+    "energyDesc": "Agilidad comprobada en eliminación de cuellos de botella técnicos pre-FID.",
     "operations": "Dirección de Equipos de Alto Rendimiento",
-    "operationsDesc": "Orquestación masiva de fuerzas de trabajo multidisciplinares e internacionales (hasta +1.000 trabajadores).",
+    "operationsDesc": "Movilización y rendimiento de fuerzas de trabajo masivas (+1.000 FTEs).",
     "stakeholders": "Gestión Ejecutiva de Stakeholders",
-    "stakeholdersDesc": "Negociación y alineación estratégica con comités directivos, autoridades y comunidades locales."
+    "stakeholdersDesc": "Alineación corporativa y obtención de licencias sociales para operar."
   },
   "Portfolio": {
     "title": "Proyectos Destacados",
@@ -85,8 +85,8 @@
       "sector": "Energía Renovable (FV)",
       "capacity": "408 MWp",
       "budget": "240 M€",
-      "scope": "Dirección Full EPC (Civil, Eléctrica, Montaje)",
-      "achievements": "Lideró la SE Elevadora de 3 circuitos y línea de 5km bajo estrictos estándares de calidad.",
+      "scope": "Ejecución Full EPC: +400 MWp, Infraestructura Civil y Eléctrica.",
+      "achievements": "✔ Liderazgo de constructibilidad y montaje.\n✔ Entrega de SE Elevadora (3 circuitos) y 5km de AT.\n✔ Cumplimiento de CAPEX de 240 M€ sin desviaciones.",
       "globalMotive": "Valida la capacidad de entregar infraestructuras masivas renovables europeas.",
       "images": [
         "Sabinar 01.jpg",
@@ -104,8 +104,8 @@
       "sector": "Energía Renovable (Eólica)",
       "capacity": "250 MW (274 MW max)",
       "budget": "225 M USD",
-      "scope": "Construcción completa de 83 WTGs incluyendo accesos y cimentaciones.",
-      "achievements": "Excavación de 100 km de viales y gestión de cimentaciones de hormigón complejas (huecas) para torres de dovelas de hormigón postensadas.",
+      "scope": "Construcción completa de 83 WTGs (250 MW).",
+      "achievements": "✔ Excavación de 100 km de vías en orografía restrictiva.\n✔ Gestión de cimentaciones complejas de dovelas.\n✔ Control estricto de presupuesto de 225 M USD.",
       "globalMotive": "Demuestra capacidad de ejecución en entornos geográficos complejos de LATAM.",
       "images": [
         "Viales Dolores.JPG",
@@ -124,8 +124,8 @@
       "sector": "Energía Renovable (FV)",
       "capacity": "270 MWp",
       "budget": "165 M USD",
-      "scope": "Ejecución Full EPC incluyendo seguidores y subestaciones.",
-      "achievements": "Entrega en plazo de la SE Elevadora, SE de maniobra y línea de evacuación mixta.",
+      "scope": "Ejecución Full EPC (270 MWp): Seguidores y Subestaciones.",
+      "achievements": "✔ Energización exitosa de SE Elevadora y Maniobra.\n✔ Tiempos de ciclo optimizados para línea mixta.\n✔ Gestión de equipo multicultural en México.",
       "globalMotive": "Demuestra la gestión de grandes activos solares integrados para desarrolladores internacionales.",
       "images": [
         "Planta Cuervos.JPG",
@@ -170,8 +170,8 @@
       "sector": "Energía Renovable (FV)",
       "capacity": "125 MWp",
       "budget": "100 M USD",
-      "scope": "Viabilidad técnica y estructuración EPC.",
-      "achievements": "Establecimiento de líneas base de constructibilidad, mitigación de riesgos y énfasis en optimización de las fases del proyecto para aceleración de tiempos.",
+      "scope": "Viabilidad Técnica, Líneas Base y Estructuración EPC.",
+      "achievements": "✔ Optimización de cronograma EPC acelerando el Time-to-Market.\n✔ Mitigación temprana de riesgos pre-FID para cartera de 100 M USD.",
       "globalMotive": "Demuestra experiencia en fase pre-FID y licitaciones para grandes promotores.",
       "images": [
         "Bosques 04.jpg",
@@ -236,7 +236,9 @@
     "downloadCv": "Solicitar CV (Descatalogado)",
     "downloadSummary": "Descargar Executive Summary PDF",
     "successMessage": "Mensaje enviado exitosamente. Me pondré en contacto en breve.",
-    "errorMessage": "Hubo un error al enviar el mensaje. Intente de nuevo más tarde."
+    "errorMessage": "Hubo un error al enviar el mensaje. Intente de nuevo más tarde.",
+    "subtitle": "Impulsando Visiones Globales",
+    "text": "Abierto a asignaciones ejecutivas, dirección de megaproyectos y consultoría EPC a nivel mundial. ¿Buscas certidumbre en tu próxima gran inversión? Hablemos."
   },
   "Nav": {
     "about": "Sobre Mí",
@@ -245,16 +247,14 @@
     "contact": "Contacto"
   },
   "Impact": {
-    "exp": "+30",
-    "expLabel": "Años de Experiencia",
     "power": "+1.2 GW",
     "powerLabel": "Potencia Renovable",
+    "projects": "+50",
+    "projectsLabel": "Megaproyectos",
     "budget": "+$1.000M",
-    "budgetLabel": "Presupuesto Ejecutado",
-    "team": "+1.100",
-    "teamLabel": "Operarios-Pico Promedio por Proyecto",
-    "co2": "+1.5M",
-    "co2Label": "Ton. CO₂/año evitadas"
+    "budgetLabel": "CAPEX Ejecutado",
+    "countries": "+15",
+    "countriesLabel": "Países de Operación"
   },
   "Clients": {
     "title": "Empresas de primer nivel que confían en mi gestión"

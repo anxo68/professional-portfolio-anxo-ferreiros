@@ -50,8 +50,11 @@ export default function Contact() {
               {t('title')}
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-emerald-600 rounded-full"></span>
             </h2>
+            <p className="text-slate-600 dark:text-slate-300 mb-6 text-xl font-bold text-emerald-700 dark:text-emerald-400">
+              {t('subtitle')}
+            </p>
             <p className="text-slate-600 dark:text-slate-300 mb-10 text-lg">
-              {t('message')}
+              {t('text')}
             </p>
 
             <div className="space-y-6">
