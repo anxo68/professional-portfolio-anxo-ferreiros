@@ -52,6 +52,10 @@ export default function Hero() {
             {t('subtitle')}
           </p>
           
+          <p className="text-md md:text-lg text-emerald-700 dark:text-emerald-400 font-semibold max-w-2xl text-center">
+            {t('supportingText')}
+          </p>
+          
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 pt-8 w-full">
             <a 
               href="#portfolio" 
