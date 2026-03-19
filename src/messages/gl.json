@@ -247,14 +247,16 @@
     "contact": "Contacto"
   },
   "Impact": {
+    "exp": "+30",
+    "expLabel": "Anos de Experiencia",
     "power": "+1.2 GW",
     "powerLabel": "Potencia Renovable",
-    "projects": "+50",
-    "projectsLabel": "Megaproxectos",
     "budget": "+$1.000M",
-    "budgetLabel": "CAPEX Executado",
-    "countries": "+15",
-    "countriesLabel": "Países de Operación"
+    "budgetLabel": "Orzamento Executado",
+    "team": "+1.100",
+    "teamLabel": "Operarios-Pico Promedio por Proxecto",
+    "co2": "+1.5M",
+    "co2Label": "Ton. CO₂/ano evitadas"
   },
   "Clients": {
     "title": "Empresas de primeiro nivel que confían na miña xestión"

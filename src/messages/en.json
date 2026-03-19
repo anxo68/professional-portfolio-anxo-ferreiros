@@ -247,14 +247,16 @@
     "contact": "Contact"
   },
   "Impact": {
+    "exp": "+30",
+    "expLabel": "Years of Experience",
     "power": "+1.2 GW",
     "powerLabel": "Renewable Power",
-    "projects": "+50",
-    "projectsLabel": "Megaprojects",
-    "budget": "+$1.000M",
-    "budgetLabel": "Executed CAPEX",
-    "countries": "+15",
-    "countriesLabel": "Operating Countries"
+    "budget": "+$1,000M",
+    "budgetLabel": "Executed Budget",
+    "team": "+1,100",
+    "teamLabel": "Average Peak Workers per Project",
+    "co2": "+1.5M",
+    "co2Label": "Tons CO₂/year avoided"
   },
   "Clients": {
     "title": "Top-tier companies trusting my management"
